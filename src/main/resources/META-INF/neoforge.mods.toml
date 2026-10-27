@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="MIT / WTFPL; Botania-derived flower logic CC BY-NC-SA 3.0"
 [[mods]]
 modId="forbiddenmagic"
-version="1.4.0"
+version="1.4.1"
 displayName="Forbidden Magic: Reforged"
 description="Forbidden thaumaturgy, with adapted Blood Magic and Botania integrations."
 [[mixins]]

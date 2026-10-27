@@ -1,14 +1,21 @@
 {
-  "parent": "minecraft:item/handheld",
-  "transform": {
-    "scale": [
-      -1,
-      1,
-      1
-    ],
-    "origin": "center"
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "forbiddenmagic:item/rapier_icon"
   },
-  "textures": {
-    "layer0": "forbiddenmagic:item/rapier_of_the_strix"
+  "perspectives": {
+    "firstperson_righthand": {
+      "parent": "forbiddenmagic:item/rapier_hand"
+    },
+    "firstperson_lefthand": {
+      "parent": "forbiddenmagic:item/rapier_hand"
+    },
+    "thirdperson_righthand": {
+      "parent": "forbiddenmagic:item/rapier_hand"
+    },
+    "thirdperson_lefthand": {
+      "parent": "forbiddenmagic:item/rapier_hand"
+    }
   }
 }

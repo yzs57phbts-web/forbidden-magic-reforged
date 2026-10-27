@@ -15,6 +15,10 @@ import net.neoforged.neoforge.client.event.*;
 
 public final class CompletionClient {
     public static void init(IEventBus bus){
+        if(ForbiddenMagic.loaded("bloodmagic"))bus.addListener((net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent event)->event.registerItem(new net.neoforged.neoforge.client.extensions.common.IClientItemExtensions(){
+            private RapierRenderer renderer;
+            @Override public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new RapierRenderer();return renderer;}
+        },Content.get("rapier_of_the_strix")));
         bus.addListener((net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent event)->event.registerItem(new net.neoforged.neoforge.client.extensions.common.IClientItemExtensions(){
             private ForkRenderer renderer;
             @Override public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer(){if(renderer==null)renderer=new ForkRenderer();return renderer;}

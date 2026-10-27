@@ -1,0 +1,3 @@
+write(Path('assets/forbiddenmagic/models/item/rapier_icon.json'),{'parent':'minecraft:item/handheld','transform':{'scale':[-1,1,1],'origin':'center'},'textures':{'layer0':'forbiddenmagic:item/rapier_of_the_strix'}})
+write(Path('assets/forbiddenmagic/models/item/rapier_hand.json'),{'parent':'minecraft:item/trident_in_hand','overrides':[]})
+write(Path('assets/forbiddenmagic/models/item/rapier_of_the_strix.json'),{'loader':'neoforge:separate_transforms','gui_light':'front','base':{'parent':'forbiddenmagic:item/rapier_icon'},'perspectives':{hand:{'parent':'forbiddenmagic:item/rapier_hand'} for hand in ['firstperson_righthand','firstperson_lefthand','thirdperson_righthand','thirdperson_lefthand']}})

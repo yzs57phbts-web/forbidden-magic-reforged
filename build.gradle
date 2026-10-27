@@ -1,5 +1,5 @@
 plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
-version = '1.4.0'
+version = '1.4.1'
 group = 'local.forbiddenmagic'
 base { archivesName = 'forbidden-magic-reforged-1.21.1' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -77,10 +77,14 @@ neoForge {
                 gameDirectory=file('run/visual140-client')
                 systemProperty 'forbiddenmagic.visual140Smoke','true'
             }
+            if(providers.gradleProperty('rapier141World').isPresent()){
+                gameDirectory=file('run/rapier141-client')
+                systemProperty 'forbiddenmagic.rapier141Smoke','true'
+            }
             if(providers.gradleProperty('modernWorld').isPresent())systemProperty 'forbiddenmagic.modernSmoke','true'
             systemProperty 'forbiddenmagic.clientSmoke',providers.gradleProperty('portWorld').isPresent()?'false':'true'
             if(providers.gradleProperty('portWorld').isPresent()){
-                systemProperty 'forbiddenmagic.worldSmoke',(providers.gradleProperty('researchWorld').isPresent()||providers.gradleProperty('localizationWorld').isPresent()||providers.gradleProperty('audit121World').isPresent()||providers.gradleProperty('legacy130World').isPresent()||providers.gradleProperty('visual140World').isPresent())?'false':'true'
+                systemProperty 'forbiddenmagic.worldSmoke',(providers.gradleProperty('researchWorld').isPresent()||providers.gradleProperty('localizationWorld').isPresent()||providers.gradleProperty('audit121World').isPresent()||providers.gradleProperty('legacy130World').isPresent()||providers.gradleProperty('visual140World').isPresent()||providers.gradleProperty('rapier141World').isPresent())?'false':'true'
                 systemProperty 'forbiddenmagic.researchSmoke',providers.gradleProperty('researchWorld').isPresent()?'true':'false'
                 systemProperty 'forbiddenmagic.localizationSmoke',providers.gradleProperty('localizationWorld').isPresent()?'true':'false'
                 programArgument '--quickPlaySingleplayer'; programArgument 'fm-port-validation'

@@ -32,7 +32,7 @@ public final class BotanyContent {
             var block=BLOCKS.register(name,()->new SpecialFlowerBlock(MobEffects.WEAKNESS,60,BlockBehaviour.Properties.ofFullCopy(Blocks.POPPY),()->type(name)));
             FLOWERS.put(name,block);
             Content.add(name,()->new SpecialFlowerBlockItem(block.get(),new Item.Properties()));
-            var floating=BLOCKS.register("floating_"+name,()->new FloatingSpecialFlowerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.POPPY),()->type(name)));
+            var floating=BLOCKS.register("floating_"+name,()->new FloatingSpecialFlowerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.POPPY).offsetType(BlockBehaviour.OffsetType.NONE),()->type(name)));
             FLOATERS.put(name,floating);Content.add("floating_"+name,()->new SpecialFlowerBlockItem(floating.get(),new Item.Properties()));
             FLOWER_TYPES.put(name,TYPES.register(name,()->BlockEntityType.Builder.of((pos,state)->name.equals("tainthistle")?new Flowers.Tainthistle(pos,state):new Flowers.Functional(name,pos,state),block.get(),floating.get()).build(null)));
         }
