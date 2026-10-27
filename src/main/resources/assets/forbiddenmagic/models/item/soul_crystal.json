@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "forbiddenmagic:item/soul_crystal"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "forbiddenmagic:filled": 1
+      },
+      "model": "forbiddenmagic:item/soul_crystal_filled"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "forbiddenmagic:item/taint_pickaxe"
+  }
+}

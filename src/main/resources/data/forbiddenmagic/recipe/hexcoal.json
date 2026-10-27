@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "forbiddenmagic:tainted_log"
+  },
+  "result": {
+    "id": "forbiddenmagic:hexcoal"
+  },
+  "experience": 0.15,
+  "cookingtime": 200,
+  "neoforge:conditions": []
+}

@@ -1,0 +1,3357 @@
+{
+  "recipes": [
+    {
+      "key": "FM:CROP",
+      "research": "FM_CROP",
+      "type": "shaped",
+      "output": "forbiddenmagic:riding_crop",
+      "aspects": {},
+      "mods": [],
+      "pattern": [
+        "L",
+        "S",
+        "S"
+      ],
+      "symbols": {
+        "L": "minecraft:leather",
+        "S": "minecraft:stick"
+      }
+    },
+    {
+      "key": "FM:CRYSTALWELL",
+      "research": "FM_CRYSTALWELL",
+      "type": "shapeless",
+      "output": "forbiddenmagic:crystal_scribing_tools",
+      "aspects": {
+        "aqua": 1,
+        "ordo": 1
+      },
+      "mods": [],
+      "inputs": [
+        "thaumcraft:scribing_tools",
+        "#c:dyes/black",
+        "thaumcraft:air_shard",
+        "thaumcraft:water_shard"
+      ]
+    },
+    {
+      "key": "FM:PRIMEWELL",
+      "research": "FM_PRIMEWELL",
+      "type": "shapeless",
+      "output": "forbiddenmagic:primal_scribing_tools",
+      "aspects": {
+        "aer": 50,
+        "terra": 50,
+        "ignis": 50,
+        "aqua": 50,
+        "ordo": 50,
+        "perditio": 50
+      },
+      "mods": [],
+      "inputs": [
+        "minecraft:feather",
+        "thaumcraft:primordial_pearl",
+        "minecraft:glass_bottle"
+      ]
+    },
+    {
+      "key": "FM:INFERNAL",
+      "research": "ROD_fm_infernal",
+      "type": "infusion",
+      "output": "forbiddenmagic:infernal_rod",
+      "aspects": {
+        "infernus": 32,
+        "praecantatio": 12,
+        "superbia": 12
+      },
+      "mods": [],
+      "center": "minecraft:blaze_rod",
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "forbiddenmagic:pride_shard",
+        "forbiddenmagic:pride_shard",
+        "minecraft:soul_sand",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:quartz",
+        "minecraft:blaze_powder",
+        "minecraft:magma_block"
+      ],
+      "instability": 5
+    },
+    {
+      "key": "FM:TAINTED",
+      "research": "ROD_fm_tainted",
+      "type": "infusion",
+      "output": "forbiddenmagic:tainted_rod",
+      "aspects": {
+        "vitium": 24,
+        "praecantatio": 12,
+        "perditio": 12
+      },
+      "mods": [],
+      "center": "thaumcraft:taint_tendril",
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "forbiddenmagic:taint_shard",
+        "forbiddenmagic:taint_shard",
+        "forbiddenmagic:taint_shard",
+        "forbiddenmagic:taint_shard",
+        "forbiddenmagic:taint_shard",
+        "forbiddenmagic:taint_shard"
+      ],
+      "instability": 5
+    },
+    {
+      "key": "FM:LIVINGWOOD",
+      "research": "ROD_fm_livingwood",
+      "type": "infusion",
+      "output": "forbiddenmagic:inert_livingwood_rod",
+      "aspects": {
+        "praecantatio": 16,
+        "arbor": 32,
+        "victus": 16,
+        "sensus": 8,
+        "herba": 8
+      },
+      "mods": [
+        "botania"
+      ],
+      "center": "botania:livingwood_log",
+      "inputs": [
+        "botania:mana_diamond",
+        "botania:rune_mana",
+        "botania:rune_water",
+        "botania:rune_fire",
+        "botania:rune_earth",
+        "botania:rune_air",
+        "botania:rune_spring",
+        "botania:rune_summer",
+        "botania:rune_autumn",
+        "botania:rune_winter"
+      ],
+      "instability": 3
+    },
+    {
+      "key": "FM:DREAMWOOD",
+      "research": "ROD_fm_dreamwood",
+      "type": "infusion",
+      "output": "forbiddenmagic:inert_dreamwood_rod",
+      "aspects": {
+        "praecantatio": 16,
+        "arbor": 32,
+        "victus": 16,
+        "sensus": 8,
+        "herba": 8
+      },
+      "mods": [
+        "botania"
+      ],
+      "center": "botania:dreamwood_log",
+      "inputs": [
+        "botania:mana_diamond",
+        "botania:rune_mana",
+        "botania:rune_water",
+        "botania:rune_fire",
+        "botania:rune_earth",
+        "botania:rune_air",
+        "botania:rune_spring",
+        "botania:rune_summer",
+        "botania:rune_autumn",
+        "botania:rune_winter"
+      ],
+      "instability": 3
+    },
+    {
+      "key": "FM:MANASTEEL",
+      "research": "CAP_fm_manasteel",
+      "type": "shaped",
+      "output": "forbiddenmagic:inert_manasteel_cap",
+      "aspects": {
+        "aer": 6,
+        "terra": 6,
+        "ignis": 6,
+        "aqua": 6,
+        "ordo": 6,
+        "perditio": 6
+      },
+      "mods": [
+        "botania"
+      ],
+      "pattern": [
+        "NNN",
+        "N N"
+      ],
+      "symbols": {
+        "N": "botania:manasteel_nugget"
+      }
+    },
+    {
+      "key": "FM:DREAMSTAFF",
+      "research": "ROD_fm_dreamwood_staff",
+      "type": "shaped",
+      "output": "forbiddenmagic:dreamwood_staff_core",
+      "aspects": {
+        "aer": 26,
+        "terra": 26,
+        "ignis": 26,
+        "aqua": 26,
+        "ordo": 26,
+        "perditio": 26
+      },
+      "mods": [
+        "botania"
+      ],
+      "pattern": [
+        "  D",
+        " B ",
+        "B  "
+      ],
+      "symbols": {
+        "D": "botania:dragonstone",
+        "B": "forbiddenmagic:dreamwood_rod"
+      }
+    },
+    {
+      "key": "FM:ELEMENTIUM_BLANK",
+      "research": "CAP_fm_elementium",
+      "type": "shaped",
+      "output": "forbiddenmagic:inert_elementium_cap",
+      "aspects": {
+        "aer": 27,
+        "terra": 27,
+        "ignis": 27,
+        "aqua": 27,
+        "ordo": 27,
+        "perditio": 27
+      },
+      "mods": [
+        "botania"
+      ],
+      "pattern": [
+        "NNN",
+        "N N"
+      ],
+      "symbols": {
+        "N": "botania:elementium_nugget"
+      }
+    },
+    {
+      "key": "FM:ELEMENTIUM",
+      "research": "CAP_fm_elementium",
+      "type": "infusion",
+      "output": "forbiddenmagic:elementium_cap",
+      "aspects": {
+        "terra": 18,
+        "ignis": 18,
+        "aqua": 18,
+        "aer": 18
+      },
+      "mods": [
+        "botania"
+      ],
+      "center": "forbiddenmagic:inert_elementium_cap",
+      "inputs": [
+        "botania:life_essence",
+        "botania:rune_water",
+        "botania:rune_fire",
+        "botania:rune_earth",
+        "botania:rune_air"
+      ],
+      "instability": 1
+    },
+    {
+      "key": "FM:EUCLIDAISY",
+      "research": "FM_EUCLIDAISY",
+      "type": "infusion",
+      "output": "forbiddenmagic:euclidaisy",
+      "aspects": {
+        "auram": 8,
+        "alienis": 10,
+        "praecantatio": 8
+      },
+      "mods": [
+        "botania"
+      ],
+      "center": "botania:pink_mystical_flower",
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "botania:mana_pearl",
+        "botania:pixie_dust",
+        "botania:pink_petal",
+        "botania:pink_petal",
+        "botania:rune_greed",
+        "botania:rune_gluttony"
+      ],
+      "instability": 8
+    },
+    {
+      "key": "FM:WHISPERWEED",
+      "research": "FM_WHISPERWEED",
+      "type": "shapeless",
+      "output": "forbiddenmagic:whisperweed",
+      "aspects": {
+        "aer": 10,
+        "terra": 10,
+        "ignis": 10,
+        "aqua": 10,
+        "ordo": 10,
+        "perditio": 10
+      },
+      "mods": [
+        "botania"
+      ],
+      "inputs": [
+        "minecraft:blue_orchid",
+        "botania:mana_diamond",
+        "botania:pixie_dust",
+        "thaumcraft:knowledge_fragment",
+        "botania:gray_petal",
+        "botania:purple_petal",
+        "botania:rune_envy",
+        "thaumcraft:zombie_brain"
+      ]
+    },
+    {
+      "key": "FM:TAINTHISTLE",
+      "research": "FM_TAINTHISTLE",
+      "type": "infusion",
+      "output": "forbiddenmagic:tainthistle",
+      "aspects": {
+        "vitium": 8,
+        "fames": 4,
+        "aer": 4,
+        "aqua": 4
+      },
+      "mods": [
+        "botania"
+      ],
+      "center": "thaumcraft:taint_tendril",
+      "inputs": [
+        "botania:purple_petal",
+        "botania:purple_petal",
+        "botania:purple_petal",
+        "botania:rune_lust",
+        "botania:rune_mana"
+      ],
+      "instability": 4
+    },
+    {
+      "key": "FM:BLOODROD",
+      "research": "ROD_fm_blood",
+      "type": "infusion",
+      "output": "forbiddenmagic:inert_blood_rod",
+      "aspects": {
+        "victus": 32,
+        "praecantatio": 12,
+        "aqua": 16
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "center": "bloodmagic:masterbloodorb",
+      "inputs": [
+        "bloodmagic:arcaneashes",
+        "bloodmagic:infusedslate",
+        "bloodmagic:infusedslate",
+        "bloodmagic:rawcatalyst",
+        "bloodmagic:reagentsight",
+        "bloodmagic:reagentwater",
+        "bloodmagic:reagentlava",
+        "bloodmagic:reagentgrowth",
+        "bloodmagic:reagentair"
+      ],
+      "instability": 2
+    },
+    {
+      "key": "FM:ALCHEMICAL",
+      "research": "CAP_fm_alchemical",
+      "type": "infusion",
+      "output": "forbiddenmagic:alchemical_cap",
+      "aspects": {
+        "victus": 12,
+        "aqua": 6
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "center": "thaumcraft:gold_wand_cap",
+      "inputs": [
+        "bloodmagic:arcaneashes",
+        "bloodmagic:arcaneashes",
+        "bloodmagic:arcaneashes"
+      ],
+      "instability": 3
+    },
+    {
+      "key": "FM:BLOODSTAFF",
+      "research": "ROD_fm_blood_staff",
+      "type": "shaped",
+      "output": "forbiddenmagic:blood_staff_core",
+      "aspects": {
+        "aer": 26,
+        "terra": 26,
+        "ignis": 26,
+        "aqua": 26,
+        "ordo": 26,
+        "perditio": 26
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "pattern": [
+        "  D",
+        " B ",
+        "B  "
+      ],
+      "symbols": {
+        "B": "forbiddenmagic:blood_rod",
+        "D": "bloodmagic:defaultcrystal"
+      }
+    },
+    {
+      "key": "FM:BLOODWELL",
+      "research": "FM_BLOODWELL",
+      "type": "shapeless",
+      "output": "forbiddenmagic:bloody_scribing_tools",
+      "aspects": {
+        "aqua": 10,
+        "terra": 10
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "inputs": [
+        "minecraft:feather",
+        "bloodmagic:life_essence_bucket",
+        "minecraft:glass_bottle",
+        "bloodmagic:weakbloodorb"
+      ]
+    },
+    {
+      "key": "FM:RAPIER",
+      "research": "FM_BLOODRAPIER",
+      "type": "infusion",
+      "output": "forbiddenmagic:rapier_of_the_strix",
+      "aspects": {
+        "victus": 18,
+        "fames": 32,
+        "telum": 8
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "center": "thaumcraft:void_sword",
+      "inputs": [
+        "thaumcraft:taint_tendril",
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:gluttony_shard",
+        "minecraft:feather",
+        "thaumcraft:zombie_brain"
+      ],
+      "instability": 8
+    },
+    {
+      "key": "FM:ELDRITCHORB",
+      "research": "FM_ELDRITCHORB",
+      "type": "infusion",
+      "output": "forbiddenmagic:eldritch_blood_orb",
+      "aspects": {
+        "victus": 64,
+        "alienis": 48,
+        "tenebrae": 32,
+        "vacuos": 64
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "center": "bloodmagic:archmagebloodorb",
+      "inputs": [
+        "thaumcraft:primordial_pearl",
+        "thaumcraft:eldritch_eye",
+        "thaumcraft:balanced_shard",
+        "thaumcraft:void_seed",
+        "thaumcraft:void_seed",
+        "minecraft:nether_star",
+        "thaumcraft:void_seed",
+        "thaumcraft:void_seed",
+        "thaumcraft:balanced_shard",
+        "thaumcraft:eldritch_eye"
+      ],
+      "instability": 2
+    },
+    {
+      "key": "FM:TAINTSHOVEL",
+      "research": "FM_TAINTSHOVEL",
+      "type": "infusion",
+      "output": "forbiddenmagic:taint_shovel",
+      "aspects": {
+        "sano": 8,
+        "vitreus": 24,
+        "perfodio": 12
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_shovel",
+      "inputs": [
+        "thaumcraft:order_shard",
+        "thaumcraft:zombie_brain",
+        "minecraft:diamond",
+        "thaumcraft:silverwood_log"
+      ],
+      "instability": 5
+    },
+    {
+      "key": "FM:TAINTPICK",
+      "research": "FM_TAINTPICK",
+      "type": "infusion",
+      "output": "forbiddenmagic:taint_pickaxe",
+      "aspects": {
+        "perditio": 8,
+        "perfodio": 8,
+        "vitium": 12
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_pickaxe",
+      "inputs": [
+        "thaumcraft:entropy_shard",
+        "forbiddenmagic:taint_shard",
+        "minecraft:diamond",
+        "thaumcraft:greatwood_log",
+        "minecraft:crying_obsidian"
+      ],
+      "instability": 1
+    },
+    {
+      "key": "FM:TAINTTREE",
+      "research": "FM_TAINTTREE",
+      "type": "crucible",
+      "output": "forbiddenmagic:tainted_sapling",
+      "aspects": {
+        "vitium": 10,
+        "venenum": 4
+      },
+      "mods": [],
+      "center": "#forbiddenmagic:taintable_saplings"
+    },
+    {
+      "key": "FM:TAINTSTONE",
+      "research": "FM_TAINTSTONE",
+      "type": "shaped",
+      "output": "forbiddenmagic:tainted_stone",
+      "aspects": {
+        "perditio": 2,
+        "ordo": 1
+      },
+      "mods": [],
+      "pattern": [
+        "SSS",
+        "SXS",
+        "SSS"
+      ],
+      "symbols": {
+        "S": "minecraft:stone",
+        "X": "forbiddenmagic:taint_shard"
+      },
+      "count": 9
+    },
+    {
+      "key": "FM:MORPH_PICKAXE",
+      "research": "FM_MORPH",
+      "type": "infusion",
+      "output": "forbiddenmagic:morph_pickaxe",
+      "aspects": {
+        "permutatio": 32,
+        "invidia": 16,
+        "instrumentum": 16
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_pickaxe",
+      "inputs": [
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard",
+        "minecraft:diamond",
+        "thaumcraft:alumentum",
+        "thaumcraft:silverwood_log"
+      ],
+      "instability": 6
+    },
+    {
+      "key": "FM:MORPH_AXE",
+      "research": "FM_MORPH",
+      "type": "infusion",
+      "output": "forbiddenmagic:morph_axe",
+      "aspects": {
+        "permutatio": 32,
+        "invidia": 16,
+        "instrumentum": 16
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_axe",
+      "inputs": [
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard",
+        "minecraft:diamond",
+        "thaumcraft:alumentum",
+        "thaumcraft:silverwood_log"
+      ],
+      "instability": 6
+    },
+    {
+      "key": "FM:MORPH_SHOVEL",
+      "research": "FM_MORPH",
+      "type": "infusion",
+      "output": "forbiddenmagic:morph_shovel",
+      "aspects": {
+        "permutatio": 32,
+        "invidia": 16,
+        "instrumentum": 16
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_shovel",
+      "inputs": [
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard",
+        "minecraft:diamond",
+        "thaumcraft:alumentum",
+        "thaumcraft:silverwood_log"
+      ],
+      "instability": 6
+    },
+    {
+      "key": "FM:MORPH_SWORD",
+      "research": "FM_MORPH",
+      "type": "infusion",
+      "output": "forbiddenmagic:morph_sword",
+      "aspects": {
+        "permutatio": 32,
+        "invidia": 16,
+        "telum": 16
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_sword",
+      "inputs": [
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard",
+        "minecraft:diamond",
+        "thaumcraft:alumentum",
+        "thaumcraft:silverwood_log"
+      ],
+      "instability": 6
+    },
+    {
+      "key": "FM:SKULLAXE",
+      "research": "FM_SKULLAXE",
+      "type": "infusion",
+      "output": "forbiddenmagic:skull_axe",
+      "aspects": {
+        "ira": 8,
+        "telum": 8,
+        "infernus": 8
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_axe",
+      "inputs": [
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:wrath_shard",
+        "minecraft:diamond",
+        "minecraft:wither_skeleton_skull"
+      ],
+      "instability": 1
+    },
+    {
+      "key": "FM:FORK",
+      "research": "FM_FORK",
+      "type": "infusion",
+      "output": "forbiddenmagic:diabolists_fork",
+      "aspects": {
+        "infernus": 8,
+        "machina": 8,
+        "potentia": 8
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_sword",
+      "inputs": [
+        "minecraft:quartz",
+        "minecraft:quartz",
+        "minecraft:quartz",
+        "minecraft:redstone"
+      ],
+      "instability": 1
+    },
+    {
+      "key": "FM:CAGE",
+      "research": "FM_CAGE",
+      "type": "infusion",
+      "output": "forbiddenmagic:wrath_cage",
+      "aspects": {
+        "ira": 32,
+        "praecantatio": 32,
+        "bestia": 32,
+        "machina": 16
+      },
+      "mods": [],
+      "center": "thaumcraft:thaumium_block",
+      "inputs": [
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:wrath_shard",
+        "minecraft:diamond",
+        "minecraft:diamond",
+        "minecraft:chain",
+        "minecraft:diamond",
+        "minecraft:diamond",
+        "thaumcraft:warded_jar",
+        "thaumcraft:warded_jar",
+        "thaumcraft:warded_jar"
+      ],
+      "instability": 10
+    },
+    {
+      "key": "FM:SOUL",
+      "research": "FM_CAGE",
+      "type": "crucible",
+      "output": "forbiddenmagic:soul_crystal",
+      "aspects": {
+        "cognitio": 10,
+        "potentia": 10
+      },
+      "mods": [],
+      "center": "minecraft:diamond"
+    },
+    {
+      "key": "FM:COLLAR",
+      "research": "FM_COLLAR",
+      "type": "infusion",
+      "output": "forbiddenmagic:submissive_collar",
+      "aspects": {
+        "luxuria": 8,
+        "vinculum": 8,
+        "infernus": 4,
+        "corpus": 4
+      },
+      "mods": [],
+      "center": "thaumcraft:vis_amulet",
+      "inputs": [
+        "forbiddenmagic:lust_shard",
+        "forbiddenmagic:lust_shard",
+        "forbiddenmagic:lust_shard",
+        "minecraft:lead",
+        "thaumcraft:mundane_belt"
+      ],
+      "instability": 1
+    },
+    {
+      "key": "FM:RING",
+      "research": "FM_RINGFOOD",
+      "type": "shaped",
+      "output": "forbiddenmagic:ring_of_nutrition",
+      "aspects": {
+        "perditio": 10,
+        "aqua": 20,
+        "terra": 20
+      },
+      "mods": [],
+      "pattern": [
+        " D ",
+        "SXS",
+        " S "
+      ],
+      "symbols": {
+        "D": "minecraft:diamond",
+        "S": "forbiddenmagic:gluttony_shard",
+        "X": "thaumcraft:mundane_ring"
+      }
+    },
+    {
+      "key": "FM:CAKE",
+      "research": "FM_ARCANECAKE",
+      "type": "infusion",
+      "output": "forbiddenmagic:arcane_cake",
+      "aspects": {
+        "gula": 12,
+        "fames": 24,
+        "fabrico": 24
+      },
+      "mods": [],
+      "center": "minecraft:cake",
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "minecraft:sugar",
+        "minecraft:egg",
+        "minecraft:honey_bottle",
+        "forbiddenmagic:gluttony_shard",
+        "forbiddenmagic:gluttony_shard"
+      ],
+      "instability": 3
+    },
+    {
+      "key": "FM:BLINK",
+      "research": "FM_BLINK",
+      "type": "infusion",
+      "output": "forbiddenmagic:blink_focus",
+      "aspects": {
+        "iter": 25,
+        "infernus": 10,
+        "desidia": 10,
+        "perditio": 25
+      },
+      "mods": [],
+      "center": "minecraft:ender_pearl",
+      "inputs": [
+        "minecraft:quartz",
+        "forbiddenmagic:sloth_shard",
+        "minecraft:quartz",
+        "forbiddenmagic:sloth_shard",
+        "minecraft:quartz",
+        "forbiddenmagic:sloth_shard"
+      ],
+      "instability": 3
+    },
+    {
+      "key": "FM:ROSE",
+      "research": "FM_ROSES",
+      "type": "crucible",
+      "output": "forbiddenmagic:umbral_rose_bush",
+      "aspects": {
+        "tenebrae": 8,
+        "victus": 5
+      },
+      "mods": [],
+      "center": "minecraft:rose_bush"
+    },
+    {
+      "key": "FM:EMERALD",
+      "research": "FM_EMERALD",
+      "type": "crucible",
+      "output": "forbiddenmagic:emerald_nugget",
+      "aspects": {
+        "vitreus": 2,
+        "lucrum": 2
+      },
+      "mods": [],
+      "center": "emerald_nugget",
+      "count": 4
+    },
+    {
+      "key": "FM:ENCH_WRATH",
+      "research": "FM_ENCH_WRATH",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "ira": 16,
+        "telum": 16,
+        "infernus": 8
+      },
+      "mods": [],
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "minecraft:iron_sword",
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:wrath_shard",
+        "forbiddenmagic:wrath_shard"
+      ],
+      "enchantment": "wrath",
+      "instability": 8
+    },
+    {
+      "key": "FM:ENCH_CLUSTER",
+      "research": "FM_ENCH_CLUSTER",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "ignis": 4,
+        "metallum": 4,
+        "lucrum": 4
+      },
+      "mods": [],
+      "inputs": [
+        "thaumcraft:elemental_pickaxe",
+        "thaumcraft:salis_mundus"
+      ],
+      "enchantment": "cluster",
+      "instability": 3
+    },
+    {
+      "key": "FM:ENCH_GREEDY",
+      "research": "FM_ENCH_GREEDY",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "infernus": 16,
+        "telum": 8,
+        "lucrum": 16
+      },
+      "mods": [],
+      "inputs": [
+        "minecraft:golden_sword",
+        "minecraft:diamond",
+        "forbiddenmagic:greed_shard",
+        "forbiddenmagic:greed_shard",
+        "thaumcraft:salis_mundus"
+      ],
+      "enchantment": "greedy",
+      "instability": 4
+    },
+    {
+      "key": "FM:ENCH_CONSUMING",
+      "research": "FM_ENCH_CONSUMING",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "vacuos": 8,
+        "instrumentum": 8,
+        "fames": 8
+      },
+      "mods": [],
+      "inputs": [
+        "minecraft:iron_shovel",
+        "minecraft:ender_eye",
+        "thaumcraft:salis_mundus"
+      ],
+      "enchantment": "consuming",
+      "instability": 3
+    },
+    {
+      "key": "FM:ENCH_EDUCATIONAL",
+      "research": "FM_ENCH_EDUCATIONAL",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "praecantatio": 4,
+        "telum": 4,
+        "cognitio": 8
+      },
+      "mods": [],
+      "inputs": [
+        "thaumcraft:zombie_brain",
+        "minecraft:book",
+        "thaumcraft:salis_mundus"
+      ],
+      "enchantment": "educational",
+      "instability": 3
+    },
+    {
+      "key": "FM:ENCH_CORRUPTING",
+      "research": "FM_ENCH_CORRUPTING",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "infernus": 16,
+        "permutatio": 16,
+        "vitreus": 8
+      },
+      "mods": [],
+      "inputs": [
+        "minecraft:nether_wart",
+        "minecraft:soul_sand",
+        "thaumcraft:salis_mundus"
+      ],
+      "enchantment": "corrupting",
+      "instability": 4
+    },
+    {
+      "key": "FM:ENCH_VOIDTOUCHED",
+      "research": "FM_ENCH_VOIDTOUCHED",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "vacuos": 16,
+        "tenebrae": 16,
+        "invidia": 24,
+        "alienis": 16
+      },
+      "mods": [],
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "thaumcraft:void_seed",
+        "thaumcraft:void_seed",
+        "thaumcraft:void_seed",
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard"
+      ],
+      "enchantment": "voidtouched",
+      "instability": 8
+    },
+    {
+      "key": "FM:ENCH_IMPACT",
+      "research": "FM_ENCH_IMPACT",
+      "type": "enchantment",
+      "output": "minecraft:enchanted_book",
+      "aspects": {
+        "perditio": 16,
+        "perfodio": 16
+      },
+      "mods": [],
+      "inputs": [
+        "thaumcraft:salis_mundus",
+        "forbiddenmagic:envy_shard",
+        "forbiddenmagic:envy_shard",
+        "thaumcraft:elemental_shovel"
+      ],
+      "enchantment": "impact",
+      "instability": 4
+    },
+    {
+      "key": "FM:TERRASTEEL",
+      "research": "CAP_fm_terrasteel",
+      "type": "shaped",
+      "output": "forbiddenmagic:terrasteel_cap",
+      "aspects": {},
+      "mods": [
+        "botania"
+      ],
+      "pattern": [
+        "NNN",
+        "N N"
+      ],
+      "symbols": {
+        "N": "botania:terrasteel_nugget"
+      }
+    }
+  ],
+  "research": [
+    {
+      "key": "FM_CRYSTALWELL",
+      "icon": "forbiddenmagic:crystal_scribing_tools",
+      "x": -2,
+      "y": -8,
+      "complexity": 1,
+      "parents": [
+        "RESEARCH"
+      ],
+      "aspects": {
+        "cognitio": 3,
+        "vitreus": 2,
+        "praecantatio": 1
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:CRYSTALWELL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CRYSTALWELL",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CRYSTALWELL.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:CRYSTALWELL"
+        },
+        {
+          "type": "text",
+          "key": "fm.note.FM_BOUNDWELL",
+          "mods": [
+            "bloodmagic"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "FM_PRIMEWELL",
+      "icon": "forbiddenmagic:primal_scribing_tools",
+      "x": 2,
+      "y": -8,
+      "complexity": 1,
+      "parents": [
+        "PRIMPEARL"
+      ],
+      "aspects": {
+        "cognitio": 3,
+        "alienis": 6,
+        "fabrico": 1
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:PRIMEWELL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "PRIMEWELL",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.PRIMEWELL.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:PRIMEWELL"
+        }
+      ]
+    },
+    {
+      "key": "FM_EMERALD",
+      "icon": "forbiddenmagic:emerald_nugget",
+      "x": 0,
+      "y": -6,
+      "complexity": 3,
+      "parents": [
+        "TRANSGOLD"
+      ],
+      "aspects": {
+        "vitreus": 2,
+        "permutatio": 5,
+        "lucrum": 4
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:EMERALD"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "TRANSEMERALD",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TRANSEMERALD.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:EMERALD"
+        }
+      ]
+    },
+    {
+      "key": "FM_ROSES",
+      "icon": "forbiddenmagic:umbral_rose",
+      "x": -2,
+      "y": -6,
+      "complexity": 1,
+      "parents": [],
+      "aspects": {
+        "herba": 3,
+        "sensus": 2,
+        "tenebrae": 4
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ROSE"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "BLACKFLOWER",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [
+        "sensus"
+      ],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.BLACKFLOWER.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ROSE"
+        },
+        {
+          "type": "crafting",
+          "recipe": "forbiddenmagic:black_dye"
+        },
+        {
+          "type": "text",
+          "key": "fm.modern.FM_ROSES"
+        }
+      ]
+    },
+    {
+      "key": "FM_CROP",
+      "icon": "forbiddenmagic:riding_crop",
+      "x": 0,
+      "y": -8,
+      "complexity": 1,
+      "parents": [],
+      "aspects": {},
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:CROP"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "RIDINGCROP",
+      "auto": true,
+      "round": true,
+      "stub": true,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.RIDINGCROP.1"
+        },
+        {
+          "type": "crafting",
+          "recipe": "forbiddenmagic:riding_crop"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_CONSUMING",
+      "x": -4,
+      "y": -8,
+      "complexity": 1,
+      "parents": [
+        "INFUSIONENCHANTMENT"
+      ],
+      "aspects": {
+        "vacuos": 4,
+        "perditio": 3,
+        "praecantatio": 2
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ENCH_CONSUMING"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CONSUMING",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/consuming.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CONSUMING.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_CONSUMING"
+        },
+        {
+          "type": "text",
+          "key": "fm.modern.FM_ENCH_CONSUMING"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_EDUCATIONAL",
+      "x": -4,
+      "y": -7,
+      "complexity": 2,
+      "parents": [
+        "INFUSIONENCHANTMENT"
+      ],
+      "aspects": {
+        "cognitio": 5,
+        "telum": 1,
+        "praecantatio": 3
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ENCH_EDUCATIONAL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "EDUCATIONAL",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/educational.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.EDUCATIONAL.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_EDUCATIONAL"
+        }
+      ]
+    },
+    {
+      "key": "FM_ROOT",
+      "icon": "minecraft:bookshelf",
+      "x": -1,
+      "y": 1,
+      "complexity": 1,
+      "parents": [],
+      "aspects": {},
+      "mods": [],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "SCHOOLS",
+      "auto": true,
+      "round": true,
+      "stub": true,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "any_mods": [
+        "bloodmagic",
+        "botania"
+      ],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.SCHOOLS.1"
+        }
+      ]
+    },
+    {
+      "key": "FM_SHARDS",
+      "icon": "forbiddenmagic:wrath_shard",
+      "x": -8,
+      "y": -5,
+      "complexity": 1,
+      "parents": [],
+      "aspects": {},
+      "mods": [],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "NETHERSHARDS",
+      "auto": true,
+      "round": true,
+      "stub": true,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.NETHERSHARDS.1"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.NETHERSHARDS.2"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.NETHERSHARDS.3"
+        },
+        {
+          "type": "text",
+          "key": "fm.modern.FM_SHARDS"
+        }
+      ]
+    },
+    {
+      "key": "FM_HELLFIRE",
+      "x": -8,
+      "y": -8,
+      "complexity": 1,
+      "parents": [
+        "FM_SHARDS"
+      ],
+      "aspects": {
+        "ignis": 3,
+        "infernus": 4,
+        "iter": 2
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "HELLFIRE",
+      "auto": false,
+      "round": true,
+      "stub": false,
+      "virtual": false,
+      "concealed": false,
+      "hidden": true,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [
+        "infernus"
+      ],
+      "icon_texture": "forbiddenmagic:textures/misc/hellfire.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.HELLFIRE.1"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_profane",
+      "icon": "forbiddenmagic:profane_rod",
+      "x": -9,
+      "y": -8,
+      "complexity": 1,
+      "parents": [
+        "FM_SHARDS"
+      ],
+      "aspects": {},
+      "mods": [],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_profane",
+      "auto": false,
+      "round": true,
+      "stub": true,
+      "virtual": false,
+      "concealed": false,
+      "hidden": true,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_profane.1"
+        }
+      ]
+    },
+    {
+      "key": "FM_COLLAR",
+      "icon": "forbiddenmagic:submissive_collar",
+      "x": -11,
+      "y": -5,
+      "complexity": 2,
+      "parents": [
+        "FM_SHARDS",
+        "VISAMULET",
+        "INFUSION"
+      ],
+      "aspects": {
+        "auram": 3,
+        "luxuria": 8,
+        "praecantatio": 3,
+        "vinculum": 6,
+        "corpus": 4
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:COLLAR"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "SUBCOLLAR",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": false,
+      "hidden": true,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [
+        "luxuria"
+      ],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.SUBCOLLAR.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:COLLAR"
+        }
+      ]
+    },
+    {
+      "key": "FM_SKULLAXE",
+      "icon": "forbiddenmagic:skull_axe",
+      "x": -11,
+      "y": -7,
+      "complexity": 2,
+      "parents": [
+        "FM_SHARDS",
+        "THAUMIUM",
+        "INFUSION"
+      ],
+      "aspects": {
+        "telum": 3,
+        "ira": 4,
+        "infernus": 1
+      },
+      "mods": [],
+      "warp": 1,
+      "recipes": [
+        "FM:SKULLAXE"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "SKULLAXE",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.SKULLAXE.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:SKULLAXE"
+        },
+        {
+          "type": "text",
+          "key": "fm.modern.FM_SKULLAXE"
+        }
+      ]
+    },
+    {
+      "key": "FM_RINGFOOD",
+      "icon": "forbiddenmagic:ring_of_nutrition",
+      "x": -11,
+      "y": -6,
+      "complexity": 2,
+      "parents": [
+        "FM_SHARDS"
+      ],
+      "aspects": {
+        "gula": 4,
+        "fames": 3,
+        "victus": 2
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:RING"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "RINGFOOD",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.RINGFOOD.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:RING"
+        }
+      ]
+    },
+    {
+      "key": "FM_ARCANECAKE",
+      "icon": "forbiddenmagic:arcane_cake",
+      "x": -12,
+      "y": -6,
+      "complexity": 2,
+      "parents": [
+        "FM_SHARDS",
+        "INFUSION"
+      ],
+      "aspects": {
+        "gula": 6,
+        "fames": 3,
+        "fabrico": 2
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:CAKE"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ARCANECAKE",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [
+        "gula"
+      ],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ARCANECAKE.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:CAKE"
+        }
+      ]
+    },
+    {
+      "key": "FM_BLINK",
+      "icon": "forbiddenmagic:blink_focus",
+      "x": -11,
+      "y": -3,
+      "complexity": 2,
+      "parents": [
+        "FM_SHARDS",
+        "INFUSION"
+      ],
+      "aspects": {
+        "iter": 3,
+        "perditio": 3,
+        "infernus": 3,
+        "desidia": 6
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:BLINK"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "FOCUSBLINK",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.FOCUSBLINK.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:BLINK"
+        }
+      ]
+    },
+    {
+      "key": "FM_MORPH",
+      "icon": "forbiddenmagic:morph_pickaxe",
+      "x": -9,
+      "y": -3,
+      "complexity": 3,
+      "parents": [
+        "FM_SHARDS"
+      ],
+      "aspects": {
+        "instrumentum": 2,
+        "invidia": 3,
+        "permutatio": 2
+      },
+      "mods": [],
+      "warp": 4,
+      "recipes": [
+        "FM:MORPH_PICKAXE",
+        "FM:MORPH_AXE",
+        "FM:MORPH_SHOVEL",
+        "FM:MORPH_SWORD"
+      ],
+      "parents_hidden": [
+        "THAUMIUM",
+        "INFUSIONENCHANTMENT"
+      ],
+      "siblings": [],
+      "original_key": "MORPHTOOLS",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.MORPHTOOLS.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:MORPH_PICKAXE"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:MORPH_SWORD"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:MORPH_SHOVEL"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:MORPH_AXE"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_infernal",
+      "icon": "forbiddenmagic:infernal_rod",
+      "x": -11,
+      "y": -4,
+      "complexity": 3,
+      "parents": [
+        "ROD_silverwood",
+        "INFUSION",
+        "FM_SHARDS"
+      ],
+      "aspects": {
+        "infernus": 4,
+        "ignis": 3,
+        "instrumentum": 1
+      },
+      "mods": [],
+      "warp": 2,
+      "recipes": [
+        "FM:INFERNAL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_infernal",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_infernal.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:INFERNAL"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_infernal.2"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_WRATH",
+      "x": -6,
+      "y": -3,
+      "complexity": 3,
+      "parents": [
+        "FM_SHARDS",
+        "INFUSIONENCHANTMENT"
+      ],
+      "aspects": {
+        "ira": 16,
+        "telum": 20,
+        "praecantatio": 10
+      },
+      "mods": [],
+      "warp": 3,
+      "recipes": [
+        "FM:ENCH_WRATH"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "WRATH",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/wrath.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.WRATH.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_WRATH"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_GREEDY",
+      "x": -6,
+      "y": -5,
+      "complexity": 2,
+      "parents": [
+        "FM_SHARDS",
+        "INFUSIONENCHANTMENT"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "telum": 1,
+        "lucrum": 3
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ENCH_GREEDY"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "GREEDY",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/greedy.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.GREEDY.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_GREEDY"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_CORRUPTING",
+      "x": -6,
+      "y": -4,
+      "complexity": 1,
+      "parents": [
+        "FM_SHARDS",
+        "INFUSIONENCHANTMENT"
+      ],
+      "aspects": {
+        "infernus": 5,
+        "vitreus": 2,
+        "permutatio": 1
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ENCH_CORRUPTING"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CORRUPTING",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/corrupting.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CORRUPTING.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_CORRUPTING"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_CLUSTER",
+      "x": -10,
+      "y": -1,
+      "complexity": 3,
+      "parents": [
+        "FM_MORPH",
+        "ELEMENTALPICK"
+      ],
+      "aspects": {
+        "metallum": 1,
+        "ignis": 4,
+        "invidia": 3
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ENCH_CLUSTER"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CLUSTER",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/lucrative.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CLUSTER.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_CLUSTER"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_IMPACT",
+      "x": -9,
+      "y": -1,
+      "complexity": 3,
+      "parents": [
+        "FM_MORPH",
+        "ELEMENTALSHOVEL"
+      ],
+      "aspects": {
+        "perditio": 8,
+        "instrumentum": 10,
+        "perfodio": 16,
+        "invidia": 10
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:ENCH_IMPACT"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "IMPACT",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/impact.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.IMPACT.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_IMPACT"
+        }
+      ]
+    },
+    {
+      "key": "FM_ENCH_VOIDTOUCHED",
+      "x": -8,
+      "y": -1,
+      "complexity": 3,
+      "parents": [
+        "FM_MORPH",
+        "VOIDMETAL"
+      ],
+      "aspects": {
+        "alienis": 16,
+        "instrumentum": 10,
+        "fabrico": 8,
+        "invidia": 32
+      },
+      "mods": [],
+      "warp": 3,
+      "recipes": [
+        "FM:ENCH_VOIDTOUCHED"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "VOIDTOUCHED",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "icon_texture": "forbiddenmagic:textures/misc/voidtouched.png",
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.VOIDTOUCHED.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ENCH_VOIDTOUCHED"
+        }
+      ]
+    },
+    {
+      "key": "FM_FORK",
+      "icon": "forbiddenmagic:diabolists_fork",
+      "x": -6,
+      "y": -7,
+      "complexity": 1,
+      "parents": [
+        "INFUSION",
+        "FM_SHARDS",
+        "THAUMIUM"
+      ],
+      "aspects": {
+        "infernus": 3,
+        "machina": 1,
+        "instrumentum": 1
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:FORK"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "FORK",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.FORK.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:FORK"
+        },
+        {
+          "type": "concealed",
+          "key": "forbidden.research_page.FORK.wc",
+          "requires": "FM_CAGE"
+        }
+      ]
+    },
+    {
+      "key": "FM_CAGE",
+      "icon": "forbiddenmagic:wrath_cage",
+      "x": -6,
+      "y": -9,
+      "complexity": 3,
+      "parents": [
+        "FM_FORK"
+      ],
+      "aspects": {
+        "ira": 5,
+        "machina": 3,
+        "bestia": 2
+      },
+      "mods": [],
+      "warp": 3,
+      "recipes": [
+        "FM:CAGE",
+        "FM:SOUL"
+      ],
+      "parents_hidden": [
+        "INFUSION",
+        "THAUMIUM",
+        "DISTILESSENTIA"
+      ],
+      "siblings": [],
+      "original_key": "WRATHCAGE",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.WRATHCAGE.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:CAGE"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.WRATHCAGE.2"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.WRATHCAGE.3"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:SOUL"
+        },
+        {
+          "type": "text",
+          "key": "fm.modern.FM_CAGE"
+        }
+      ]
+    },
+    {
+      "key": "FM_TAINTSHOVEL",
+      "icon": "forbiddenmagic:taint_shovel",
+      "x": -8,
+      "y": 1,
+      "complexity": 2,
+      "parents": [
+        "THAUMIUM",
+        "INFUSION",
+        "ETHEREALBLOOM"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "vitium": 2,
+        "instrumentum": 1
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:TAINTSHOVEL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "TAINTSHOVEL",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TAINTSHOVEL.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:TAINTSHOVEL"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TAINTSHOVEL.2"
+        }
+      ]
+    },
+    {
+      "key": "FM_TAINTPICK",
+      "icon": "forbiddenmagic:taint_pickaxe",
+      "x": -10,
+      "y": 1,
+      "complexity": 2,
+      "parents": [
+        "FM_TAINTSHOVEL"
+      ],
+      "aspects": {
+        "instrumentum": 2,
+        "vitium": 4,
+        "perditio": 3
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:TAINTPICK"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "TAINTPICK",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TAINTPICK.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:TAINTPICK"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_tainted",
+      "icon": "forbiddenmagic:tainted_rod",
+      "x": -8,
+      "y": 3,
+      "complexity": 3,
+      "parents": [
+        "ROD_silverwood",
+        "FM_TAINTSHOVEL",
+        "INFUSION"
+      ],
+      "aspects": {
+        "praecantatio": 4,
+        "vitium": 5,
+        "instrumentum": 2
+      },
+      "mods": [],
+      "warp": 2,
+      "recipes": [
+        "FM:TAINTED"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_tainted",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_tainted.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:TAINTED"
+        }
+      ]
+    },
+    {
+      "key": "FM_TAINTTREE",
+      "icon": "forbiddenmagic:tainted_sapling",
+      "x": -11,
+      "y": 3,
+      "complexity": 3,
+      "parents": [
+        "THAUMIUM",
+        "INFUSION",
+        "ETHEREALBLOOM"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "vitium": 6,
+        "venenum": 2,
+        "herba": 3
+      },
+      "mods": [],
+      "warp": 1,
+      "recipes": [
+        "FM:TAINTTREE"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "TAINTTREE",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TAINTTREE.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:TAINTTREE"
+        },
+        {
+          "type": "crafting",
+          "recipe": "forbiddenmagic:planks"
+        },
+        {
+          "type": "smelting",
+          "input": "forbiddenmagic:tainted_log",
+          "output": "forbiddenmagic:hexcoal"
+        },
+        {
+          "type": "text",
+          "key": "fm.modern.FM_TAINTTREE"
+        }
+      ]
+    },
+    {
+      "key": "FM_TAINTSTONE",
+      "icon": "forbiddenmagic:tainted_bricks",
+      "x": -10,
+      "y": 3,
+      "complexity": 2,
+      "parents": [
+        "THAUMIUM",
+        "INFUSION",
+        "ETHEREALBLOOM"
+      ],
+      "aspects": {
+        "terra": 4,
+        "vitium": 6,
+        "ordo": 2
+      },
+      "mods": [],
+      "warp": 0,
+      "recipes": [
+        "FM:TAINTSTONE"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "TAINTSTONE",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TAINTSTONE.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:TAINTSTONE"
+        },
+        {
+          "type": "crafting",
+          "recipe": "forbiddenmagic:tainted_bricks"
+        }
+      ]
+    },
+    {
+      "key": "FM_BOTANY",
+      "icon": "botania:lexicon",
+      "x": -3,
+      "y": 3,
+      "complexity": 1,
+      "parents": [
+        "FM_ROOT"
+      ],
+      "aspects": {},
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "BOTANY",
+      "auto": true,
+      "round": true,
+      "stub": true,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.BOTANY.1"
+        },
+        {
+          "type": "text",
+          "key": "fm.original.bloodthorn",
+          "mods": [
+            "botania",
+            "bloodmagic"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_livingwood",
+      "icon": "forbiddenmagic:livingwood_rod",
+      "x": -1,
+      "y": 3,
+      "complexity": 3,
+      "parents": [
+        "FM_BOTANY",
+        "ROD_silverwood",
+        "INFUSION"
+      ],
+      "aspects": {
+        "arbor": 8,
+        "praecantatio": 4,
+        "herba": 6
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 2,
+      "recipes": [
+        "FM:LIVINGWOOD"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_livingwood",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_livingwood.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:LIVINGWOOD"
+        }
+      ]
+    },
+    {
+      "key": "CAP_fm_manasteel",
+      "icon": "forbiddenmagic:manasteel_cap",
+      "x": 1,
+      "y": 2,
+      "complexity": 2,
+      "parents": [
+        "ROD_fm_livingwood"
+      ],
+      "aspects": {
+        "auram": 6,
+        "praecantatio": 4,
+        "metallum": 4
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:MANASTEEL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CAP_manasteel",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CAP_manasteel.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:MANASTEEL"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_dreamwood_staff",
+      "icon": "forbiddenmagic:dreamwood_staff_core",
+      "x": 1,
+      "y": 3,
+      "complexity": 2,
+      "parents": [
+        "ROD_fm_livingwood",
+        "ROD_silverwood_staff"
+      ],
+      "aspects": {
+        "arbor": 16,
+        "praecantatio": 8,
+        "alienis": 6
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:DREAMWOOD",
+        "FM:DREAMSTAFF"
+      ],
+      "parents_hidden": [],
+      "siblings": [
+        "ROD_fm_dreamwood"
+      ],
+      "original_key": "ROD_dreamwood_staff",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_dreamwood_staff.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:DREAMSTAFF"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:DREAMWOOD"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_dreamwood",
+      "icon": "forbiddenmagic:dreamwood_rod",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_dreamwood",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": true,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": []
+    },
+    {
+      "key": "CAP_fm_elementium",
+      "icon": "forbiddenmagic:elementium_cap",
+      "x": 3,
+      "y": 3,
+      "complexity": 3,
+      "parents": [
+        "ROD_fm_dreamwood_staff"
+      ],
+      "aspects": {
+        "ignis": 8,
+        "praecantatio": 12,
+        "aqua": 8,
+        "aer": 8,
+        "terra": 8
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:ELEMENTIUM_BLANK",
+        "FM:ELEMENTIUM"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CAP_elementium",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CAP_elementium.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ELEMENTIUM_BLANK"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ELEMENTIUM"
+        }
+      ]
+    },
+    {
+      "key": "CAP_fm_terrasteel",
+      "icon": "forbiddenmagic:terrasteel_cap",
+      "x": 3,
+      "y": 2,
+      "complexity": 1,
+      "parents": [
+        "CAP_fm_manasteel"
+      ],
+      "aspects": {
+        "potentia": 1,
+        "metallum": 1
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:TERRASTEEL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CAP_terrasteel",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CAP_terrasteel.1"
+        },
+        {
+          "type": "crafting",
+          "recipe": "forbiddenmagic:terrasteel_caps"
+        }
+      ]
+    },
+    {
+      "key": "FM_EUCLIDAISY",
+      "icon": "forbiddenmagic:euclidaisy",
+      "x": -3,
+      "y": 5,
+      "complexity": 2,
+      "parents": [
+        "FM_BOTANY",
+        "INFUSION"
+      ],
+      "aspects": {
+        "herba": 8,
+        "praecantatio": 4,
+        "auram": 12
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:EUCLIDAISY"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "EUCLIDAISY",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.EUCLIDAISY.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:EUCLIDAISY"
+        }
+      ]
+    },
+    {
+      "key": "FM_WHISPERWEED",
+      "icon": "forbiddenmagic:whisperweed",
+      "x": -4,
+      "y": 5,
+      "complexity": 1,
+      "parents": [
+        "FM_BOTANY"
+      ],
+      "aspects": {
+        "herba": 8,
+        "cognitio": 10,
+        "sensus": 4
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:WHISPERWEED"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "WHISPERWEED",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.WHISPERWEED.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:WHISPERWEED"
+        }
+      ]
+    },
+    {
+      "key": "FM_TAINTHISTLE",
+      "icon": "forbiddenmagic:tainthistle",
+      "x": -2,
+      "y": 5,
+      "complexity": 2,
+      "parents": [
+        "FM_BOTANY",
+        "INFUSION"
+      ],
+      "aspects": {
+        "herba": 8,
+        "vitium": 10,
+        "praecantatio": 4
+      },
+      "mods": [
+        "botania"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:TAINTHISTLE"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "TAINTHISTLE",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.TAINTHISTLE.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:TAINTHISTLE"
+        },
+        {
+          "type": "text",
+          "key": "fm.note.FM_TAINTHISTLE"
+        }
+      ]
+    },
+    {
+      "key": "FM_BLOODMAGIC",
+      "icon": "bloodmagic:sacrificialdagger",
+      "x": -1,
+      "y": -1,
+      "complexity": 1,
+      "parents": [
+        "FM_ROOT"
+      ],
+      "aspects": {},
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "recipes": [],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "BLOODMAGIC",
+      "auto": true,
+      "round": true,
+      "stub": true,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.BLOODMAGIC.1"
+        },
+        {
+          "type": "text",
+          "key": "fm.note.FM_BLOODPOTIONS"
+        },
+        {
+          "type": "text",
+          "key": "fm.note.FM_SANITY"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_blood",
+      "icon": "forbiddenmagic:blood_rod",
+      "x": -1,
+      "y": -3,
+      "complexity": 3,
+      "parents": [
+        "ROD_silverwood",
+        "INFUSION",
+        "FM_BLOODMAGIC"
+      ],
+      "aspects": {
+        "victus": 5,
+        "aqua": 4,
+        "telum": 3
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 2,
+      "recipes": [
+        "FM:BLOODROD"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_blood",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_blood.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:BLOODROD"
+        },
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_blood.2"
+        }
+      ]
+    },
+    {
+      "key": "ROD_fm_blood_staff",
+      "icon": "forbiddenmagic:blood_staff_core",
+      "x": -3,
+      "y": -2,
+      "complexity": 2,
+      "parents": [
+        "ROD_silverwood_staff",
+        "ROD_fm_blood"
+      ],
+      "aspects": {
+        "victus": 8,
+        "aqua": 7,
+        "telum": 6
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:BLOODSTAFF"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ROD_blood_staff",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": true,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ROD_blood_staff.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:BLOODSTAFF"
+        }
+      ]
+    },
+    {
+      "key": "CAP_fm_alchemical",
+      "icon": "forbiddenmagic:alchemical_cap",
+      "x": -3,
+      "y": -3,
+      "complexity": 2,
+      "parents": [
+        "ROD_fm_blood",
+        "CAP_gold"
+      ],
+      "aspects": {
+        "victus": 4,
+        "instrumentum": 1,
+        "aqua": 3
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:ALCHEMICAL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "CAP_alchemical",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": true,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.CAP_alchemical.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ALCHEMICAL"
+        }
+      ]
+    },
+    {
+      "key": "FM_BLOODWELL",
+      "icon": "forbiddenmagic:bloody_scribing_tools",
+      "x": 1,
+      "y": -1,
+      "complexity": 1,
+      "parents": [
+        "FM_BLOODMAGIC"
+      ],
+      "aspects": {
+        "victus": 5,
+        "cognitio": 4,
+        "sensus": 3
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "recipes": [
+        "FM:BLOODWELL"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "BLOODWELL",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": false,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.BLOODWELL.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:BLOODWELL"
+        }
+      ]
+    },
+    {
+      "key": "FM_BLOODRAPIER",
+      "icon": "forbiddenmagic:rapier_of_the_strix",
+      "x": 1,
+      "y": -2,
+      "complexity": 3,
+      "parents": [
+        "FM_BLOODMAGIC",
+        "INFUSION",
+        "VOIDMETAL"
+      ],
+      "aspects": {
+        "victus": 16,
+        "fames": 12,
+        "telum": 12,
+        "praecantatio": 12
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 2,
+      "recipes": [
+        "FM:RAPIER"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "BLOODRAPIER",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": false,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.BLOODRAPIER.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:RAPIER"
+        }
+      ]
+    },
+    {
+      "key": "FM_ELDRITCHORB",
+      "icon": "forbiddenmagic:eldritch_blood_orb",
+      "x": 1,
+      "y": -3,
+      "complexity": 3,
+      "parents": [
+        "FM_BLOODMAGIC",
+        "INFUSION",
+        "PRIMPEARL",
+        "VOIDMETAL"
+      ],
+      "aspects": {
+        "victus": 24,
+        "vacuos": 32,
+        "vitreus": 24,
+        "alienis": 12
+      },
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 3,
+      "recipes": [
+        "FM:ELDRITCHORB"
+      ],
+      "parents_hidden": [],
+      "siblings": [],
+      "original_key": "ELDRITCHORB",
+      "auto": false,
+      "round": false,
+      "stub": false,
+      "virtual": false,
+      "concealed": true,
+      "hidden": false,
+      "lost": false,
+      "secondary": false,
+      "special": true,
+      "triggers": [],
+      "pages": [
+        {
+          "type": "text",
+          "key": "forbidden.research_page.ELDRITCHORB.1"
+        },
+        {
+          "type": "recipe",
+          "recipe": "FM:ELDRITCHORB"
+        },
+        {
+          "type": "text",
+          "key": "fm.note.FM_ELDRITCHORB"
+        }
+      ]
+    },
+    {
+      "key": "FM_TAINTSHARD",
+      "icon": "forbiddenmagic:taint_shard",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [],
+      "warp": 0,
+      "auto": false,
+      "recipes": [],
+      "virtual": true,
+      "hidden": false,
+      "concealed": false,
+      "round": false,
+      "stub": false,
+      "parents_hidden": [],
+      "siblings": []
+    },
+    {
+      "key": "FM_BOUNDWELL",
+      "icon": "forbiddenmagic:bound_scribing_tools",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "auto": false,
+      "recipes": [],
+      "virtual": true,
+      "hidden": false,
+      "concealed": false,
+      "round": false,
+      "stub": false,
+      "parents_hidden": [],
+      "siblings": []
+    },
+    {
+      "key": "FM_BLOODTHORN",
+      "icon": "forbiddenmagic:bloodthorn",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [
+        "botania",
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "auto": false,
+      "recipes": [],
+      "virtual": true,
+      "hidden": false,
+      "concealed": false,
+      "round": false,
+      "stub": false,
+      "parents_hidden": [],
+      "siblings": []
+    },
+    {
+      "key": "FM_BLOODPOTIONS",
+      "icon": "forbiddenmagic:tainted_blood_shard",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "auto": false,
+      "recipes": [],
+      "virtual": true,
+      "hidden": false,
+      "concealed": false,
+      "round": false,
+      "stub": false,
+      "parents_hidden": [],
+      "siblings": []
+    },
+    {
+      "key": "FM_SANITY",
+      "icon": "bloodmagic:masterritualstone",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [
+        "bloodmagic"
+      ],
+      "warp": 0,
+      "auto": false,
+      "recipes": [],
+      "virtual": true,
+      "hidden": false,
+      "concealed": false,
+      "round": false,
+      "stub": false,
+      "parents_hidden": [],
+      "siblings": []
+    },
+    {
+      "key": "FM_GLUTTONY",
+      "icon": "forbiddenmagic:ring_of_nutrition",
+      "x": 0,
+      "y": 0,
+      "complexity": 0,
+      "parents": [],
+      "aspects": {},
+      "mods": [],
+      "warp": 0,
+      "auto": false,
+      "recipes": [],
+      "virtual": true,
+      "hidden": false,
+      "concealed": false,
+      "round": false,
+      "stub": false
+    }
+  ]
+}

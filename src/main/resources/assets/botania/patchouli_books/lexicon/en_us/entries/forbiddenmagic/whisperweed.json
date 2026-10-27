@@ -1,0 +1,19 @@
+{
+  "name": "Whisperweed",
+  "category": "botania:functional_flowers",
+  "icon": "forbiddenmagic:whisperweed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Каждые 300 тиков расходует 6000 маны на случайного игрока в радиусе 3 блоков и даёт очки исследований. Обычно выбирает первичные аспекты, изредка — составные. В 20% циклов даёт больше знаний и временное искажение. Без игрока мана не тратится. Красный камень отключает цветок."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Research and recipes: Thaumonomicon → Apocrypha. Combine with a mundane floating flower for a floating variant."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "forbiddenmagic:whisperweed": 0,
+    "forbiddenmagic:floating_whisperweed": 0
+  }
+}

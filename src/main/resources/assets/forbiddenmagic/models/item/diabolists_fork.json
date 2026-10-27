@@ -1,0 +1,29 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "forbiddenmagic:item/fork_icon"
+  },
+  "perspectives": {
+    "firstperson_righthand": {
+      "parent": "forbiddenmagic:item/fork_hand"
+    },
+    "firstperson_lefthand": {
+      "parent": "forbiddenmagic:item/fork_hand"
+    },
+    "thirdperson_righthand": {
+      "parent": "forbiddenmagic:item/fork_hand"
+    },
+    "thirdperson_lefthand": {
+      "parent": "forbiddenmagic:item/fork_hand"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "forbiddenmagic:spork": 1
+      },
+      "model": "forbiddenmagic:item/spork"
+    }
+  ]
+}

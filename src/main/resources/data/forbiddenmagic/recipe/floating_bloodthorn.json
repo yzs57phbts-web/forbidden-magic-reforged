@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "forbiddenmagic:bloodthorn"
+    },
+    {
+      "item": "botania:white_floating_flower"
+    }
+  ],
+  "result": {
+    "id": "forbiddenmagic:floating_bloodthorn"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbiddenmagic:feature_enabled",
+      "feature": "bloodmagic"
+    },
+    {
+      "type": "forbiddenmagic:feature_enabled",
+      "feature": "botania"
+    }
+  ]
+}

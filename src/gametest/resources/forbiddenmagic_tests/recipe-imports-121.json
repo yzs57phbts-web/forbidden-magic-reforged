@@ -1,0 +1,367 @@
+[
+  {
+    "format": 1,
+    "key": "FM:INFERNAL",
+    "kind": "INFUSION",
+    "research": "ROD_fm_infernal",
+    "owner": "forbiddenmagic",
+    "shapeless": false,
+    "instability": 5,
+    "output": {
+      "item": "forbiddenmagic:infernal_rod",
+      "count": 1,
+      "data": {}
+    },
+    "central": {
+      "type": "stack",
+      "stack": {
+        "item": "minecraft:blaze_rod",
+        "count": 1,
+        "data": {}
+      }
+    },
+    "inputs": [
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:salis_mundus",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:pride_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:pride_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:soul_sand",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:quartz",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:blaze_powder",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:magma_block",
+          "count": 1,
+          "data": {}
+        }
+      }
+    ],
+    "aspects": {
+      "infernus": 32,
+      "praecantatio": 12,
+      "superbia": 12
+    }
+  },
+  {
+    "format": 1,
+    "key": "FM:TAINTPICK",
+    "kind": "INFUSION",
+    "research": "FM_TAINTPICK",
+    "owner": "forbiddenmagic",
+    "shapeless": false,
+    "instability": 1,
+    "output": {
+      "item": "forbiddenmagic:taint_pickaxe",
+      "count": 1,
+      "data": {}
+    },
+    "central": {
+      "type": "stack",
+      "stack": {
+        "item": "thaumcraft:thaumium_pickaxe",
+        "count": 1,
+        "data": {}
+      }
+    },
+    "inputs": [
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:entropy_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:taint_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:greatwood_log",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:crying_obsidian",
+          "count": 1,
+          "data": {}
+        }
+      }
+    ],
+    "aspects": {
+      "perditio": 8,
+      "perfodio": 8,
+      "vitium": 12
+    }
+  },
+  {
+    "format": 1,
+    "key": "FM:CAGE",
+    "kind": "INFUSION",
+    "research": "FM_CAGE",
+    "owner": "forbiddenmagic",
+    "shapeless": false,
+    "instability": 10,
+    "output": {
+      "item": "forbiddenmagic:wrath_cage",
+      "count": 1,
+      "data": {}
+    },
+    "central": {
+      "type": "stack",
+      "stack": {
+        "item": "thaumcraft:thaumium_block",
+        "count": 1,
+        "data": {}
+      }
+    },
+    "inputs": [
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:wrath_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:wrath_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:wrath_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:wrath_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:chain",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:warded_jar",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:warded_jar",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:warded_jar",
+          "count": 1,
+          "data": {}
+        }
+      }
+    ],
+    "aspects": {
+      "ira": 32,
+      "praecantatio": 32,
+      "bestia": 32,
+      "machina": 16
+    }
+  },
+  {
+    "format": 1,
+    "key": "FM:CAKE",
+    "kind": "INFUSION",
+    "research": "FM_ARCANECAKE",
+    "owner": "forbiddenmagic",
+    "shapeless": false,
+    "instability": 3,
+    "output": {
+      "item": "forbiddenmagic:arcane_cake",
+      "count": 1,
+      "data": {}
+    },
+    "central": {
+      "type": "stack",
+      "stack": {
+        "item": "minecraft:cake",
+        "count": 1,
+        "data": {}
+      }
+    },
+    "inputs": [
+      {
+        "type": "stack",
+        "stack": {
+          "item": "thaumcraft:salis_mundus",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:sugar",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:egg",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "minecraft:honey_bottle",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:gluttony_shard",
+          "count": 1,
+          "data": {}
+        }
+      },
+      {
+        "type": "stack",
+        "stack": {
+          "item": "forbiddenmagic:gluttony_shard",
+          "count": 1,
+          "data": {}
+        }
+      }
+    ],
+    "aspects": {
+      "gula": 12,
+      "fames": 24,
+      "fabrico": 24
+    }
+  }
+]

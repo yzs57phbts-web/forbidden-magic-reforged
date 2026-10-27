@@ -1,0 +1,20 @@
+{
+  "name": "Кровавый шип",
+  "category": "botania:functional_flowers",
+  "icon": "forbiddenmagic:bloodthorn",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Каждые 40 маны накладывает Слабость III на 60 тиков на живое существо в радиусе 6 блоков. Игроки исключены. Уже ослабленное существо не расходует ману повторно. Заражённый моб, убитый игроком под Слабостью III, может дать заражённый кровавый осколок. Сам цветок получают из красного мистического цветка в Blood Altar IV за 15000 LP."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Рецепт и исследования: Таумономикон → Апокрифы. Парящий вариант создаётся из цветка и обычного парящего цветка Botania."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "forbiddenmagic:bloodthorn": 0,
+    "forbiddenmagic:floating_bloodthorn": 0
+  },
+  "flag": "mod:bloodmagic"
+}

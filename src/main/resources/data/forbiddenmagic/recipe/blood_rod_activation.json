@@ -1,0 +1,27 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "forbiddenmagic:inert_blood_rod"
+  },
+  "output": {
+    "item": "forbiddenmagic:blood_rod"
+  },
+  "altarSyphon": 20000,
+  "upgradeLevel": 3,
+  "consumptionRate": 15,
+  "drainRate": 20,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbiddenmagic:feature_enabled",
+      "feature": "bloodmagic"
+    },
+    {
+      "type": "forbiddenmagic:feature_enabled",
+      "feature": "conversion_wands"
+    }
+  ]
+}

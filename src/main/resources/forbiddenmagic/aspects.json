@@ -1,0 +1,3351 @@
+{
+  "schema": 1,
+  "rules": [
+    {
+      "mod": "botania",
+      "family": "Мистические лепестки",
+      "kind": "item",
+      "targets": [
+        "botania:black_petal",
+        "botania:blue_petal",
+        "botania:brown_petal",
+        "botania:cyan_petal",
+        "botania:gray_petal",
+        "botania:green_petal",
+        "botania:light_blue_petal",
+        "botania:light_gray_petal",
+        "botania:lime_petal",
+        "botania:magenta_petal",
+        "botania:orange_petal",
+        "botania:pink_petal",
+        "botania:purple_petal",
+        "botania:red_petal",
+        "botania:white_petal",
+        "botania:yellow_petal"
+      ],
+      "aspects": {
+        "herba": 1,
+        "sensus": 1,
+        "praecantatio": 1
+      },
+      "reason": "Один состав для всех цветов; цвет не создаёт новый источник редких аспектов."
+    },
+    {
+      "mod": "botania",
+      "family": "Мистические цветы",
+      "kind": "item",
+      "targets": [
+        "botania:black_mystical_flower",
+        "botania:blue_mystical_flower",
+        "botania:brown_mystical_flower",
+        "botania:cyan_mystical_flower",
+        "botania:gray_mystical_flower",
+        "botania:green_mystical_flower",
+        "botania:light_blue_mystical_flower",
+        "botania:light_gray_mystical_flower",
+        "botania:lime_mystical_flower",
+        "botania:magenta_mystical_flower",
+        "botania:orange_mystical_flower",
+        "botania:pink_mystical_flower",
+        "botania:purple_mystical_flower",
+        "botania:red_mystical_flower",
+        "botania:white_mystical_flower",
+        "botania:yellow_mystical_flower"
+      ],
+      "aspects": {
+        "herba": 2,
+        "sensus": 1,
+        "praecantatio": 1
+      },
+      "reason": "Одинаковая природа всех цветовых вариантов."
+    },
+    {
+      "mod": "botania",
+      "family": "Живой камень",
+      "kind": "item",
+      "targets": [
+        "botania:livingrock"
+      ],
+      "aspects": {
+        "terra": 2,
+        "victus": 1
+      },
+      "reason": "Оживлённый камень, не источник души или порчи."
+    },
+    {
+      "mod": "botania",
+      "family": "Живая древесина",
+      "kind": "item",
+      "targets": [
+        "botania:livingwood_log",
+        "botania:livingwood"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "victus": 1
+      },
+      "reason": "Древесина с жизненной силой."
+    },
+    {
+      "mod": "botania",
+      "family": "Древесина грёз",
+      "kind": "item",
+      "targets": [
+        "botania:dreamwood_log",
+        "botania:dreamwood"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "praecantatio": 2
+      },
+      "reason": "Эльфийская магическая древесина."
+    },
+    {
+      "mod": "botania",
+      "family": "Манасталь",
+      "kind": "item",
+      "targets": [
+        "botania:manasteel_ingot"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "praecantatio": 1
+      },
+      "reason": "Металл, пропитанный маной."
+    },
+    {
+      "mod": "botania",
+      "family": "Террасталь",
+      "kind": "item",
+      "targets": [
+        "botania:terrasteel_ingot"
+      ],
+      "aspects": {
+        "metallum": 4,
+        "praecantatio": 2,
+        "victus": 1
+      },
+      "reason": "Сложный сплав с жизненной энергией, без избыточной награды за ранг."
+    },
+    {
+      "mod": "botania",
+      "family": "Элементиевый слиток",
+      "kind": "item",
+      "targets": [
+        "botania:elementium_ingot"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "praecantatio": 2
+      },
+      "reason": "Эльфийский магический металл."
+    },
+    {
+      "mod": "botania",
+      "family": "Алмаз маны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_diamond"
+      ],
+      "aspects": {
+        "vitreus": 4,
+        "lucrum": 4,
+        "praecantatio": 1
+      },
+      "reason": "Состав алмаза и небольшая магическая добавка."
+    },
+    {
+      "mod": "botania",
+      "family": "Жемчуг маны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_pearl"
+      ],
+      "aspects": {
+        "alienis": 3,
+        "iter": 2,
+        "praecantatio": 1
+      },
+      "reason": "Сохраняет природу эндер-жемчуга."
+    },
+    {
+      "mod": "botania",
+      "family": "Пыль маны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_powder"
+      ],
+      "aspects": {
+        "potentia": 2,
+        "praecantatio": 1
+      },
+      "reason": "Порошок, проводящий ману."
+    },
+    {
+      "mod": "botania",
+      "family": "Драконий камень",
+      "kind": "item",
+      "targets": [
+        "botania:dragonstone"
+      ],
+      "aspects": {
+        "vitreus": 4,
+        "praecantatio": 2
+      },
+      "reason": "Магический камень, не кровь дракона."
+    },
+    {
+      "mod": "botania",
+      "family": "Дух Гайи",
+      "kind": "item",
+      "targets": [
+        "botania:life_essence"
+      ],
+      "aspects": {
+        "spiritus": 4,
+        "praecantatio": 4,
+        "victus": 2
+      },
+      "reason": "Дух природного стража; Auram не назначается всей мане подряд."
+    },
+    {
+      "mod": "botania",
+      "family": "Слиток духа Гайи",
+      "kind": "item",
+      "targets": [
+        "botania:gaia_ingot"
+      ],
+      "aspects": {
+        "metallum": 4,
+        "spiritus": 4,
+        "praecantatio": 4
+      },
+      "reason": "Металл и связанный дух."
+    },
+    {
+      "mod": "botania",
+      "family": "Ткань маны",
+      "kind": "item",
+      "targets": [
+        "botania:manaweave_cloth",
+        "botania:mana_string"
+      ],
+      "aspects": {
+        "pannus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Магическое волокно."
+    },
+    {
+      "mod": "botania",
+      "family": "Лексика Ботании",
+      "kind": "item",
+      "targets": [
+        "botania:lexicon"
+      ],
+      "aspects": {
+        "cognitio": 4,
+        "herba": 1,
+        "praecantatio": 1
+      },
+      "reason": "Книга ботанических знаний."
+    },
+    {
+      "mod": "botania",
+      "family": "Планшет маны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_tablet"
+      ],
+      "aspects": {
+        "terra": 2,
+        "vacuos": 2,
+        "praecantatio": 2
+      },
+      "reason": "Носитель маны; запас маны не умножает аспекты."
+    },
+    {
+      "mod": "botania",
+      "family": "Лотосы маны",
+      "kind": "item",
+      "targets": [
+        "botania:black_lotus",
+        "botania:blacker_lotus"
+      ],
+      "aspects": {
+        "herba": 2,
+        "praecantatio": 2,
+        "potentia": 2
+      },
+      "reason": "Один умеренный состав для двух вариантов лотоса."
+    },
+    {
+      "mod": "botania",
+      "family": "Стихийная руна rune_water",
+      "kind": "item",
+      "targets": [
+        "botania:rune_water"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "aqua": 2
+      },
+      "reason": "Руна конкретной стихии."
+    },
+    {
+      "mod": "botania",
+      "family": "Стихийная руна rune_fire",
+      "kind": "item",
+      "targets": [
+        "botania:rune_fire"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "ignis": 2
+      },
+      "reason": "Руна конкретной стихии."
+    },
+    {
+      "mod": "botania",
+      "family": "Стихийная руна rune_earth",
+      "kind": "item",
+      "targets": [
+        "botania:rune_earth"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "terra": 2
+      },
+      "reason": "Руна конкретной стихии."
+    },
+    {
+      "mod": "botania",
+      "family": "Стихийная руна rune_air",
+      "kind": "item",
+      "targets": [
+        "botania:rune_air"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "aer": 2
+      },
+      "reason": "Руна конкретной стихии."
+    },
+    {
+      "mod": "botania",
+      "family": "Сезонные руны",
+      "kind": "item",
+      "targets": [
+        "botania:rune_spring",
+        "botania:rune_summer",
+        "botania:rune_autumn",
+        "botania:rune_winter"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "herba": 2,
+        "motus": 1
+      },
+      "reason": "Единое семейство природного цикла без четырёх выдуманных наборов."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна маны",
+      "kind": "item",
+      "targets": [
+        "botania:rune_mana"
+      ],
+      "aspects": {
+        "praecantatio": 3,
+        "potentia": 2
+      },
+      "reason": "Магическая энергия."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха lust",
+      "kind": "item",
+      "targets": [
+        "botania:rune_lust"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "luxuria": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха gluttony",
+      "kind": "item",
+      "targets": [
+        "botania:rune_gluttony"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "gula": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха greed",
+      "kind": "item",
+      "targets": [
+        "botania:rune_greed"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "lucrum": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха sloth",
+      "kind": "item",
+      "targets": [
+        "botania:rune_sloth"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "desidia": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха wrath",
+      "kind": "item",
+      "targets": [
+        "botania:rune_wrath"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "ira": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха envy",
+      "kind": "item",
+      "targets": [
+        "botania:rune_envy"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "invidia": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Руна греха pride",
+      "kind": "item",
+      "targets": [
+        "botania:rune_pride"
+      ],
+      "aspects": {
+        "praecantatio": 2,
+        "superbia": 2
+      },
+      "reason": "Прямое тематическое соответствие названия руны; жадность остаётся Lucrum."
+    },
+    {
+      "mod": "botania",
+      "family": "Распространители маны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_spreader",
+        "botania:redstone_spreader",
+        "botania:elven_spreader",
+        "botania:gaia_spreader"
+      ],
+      "aspects": {
+        "arbor": 3,
+        "motus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Одинаковая функция независимо от уровня."
+    },
+    {
+      "mod": "botania",
+      "family": "Бассейны маны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_pool",
+        "botania:diluted_pool",
+        "botania:fabulous_pool"
+      ],
+      "aspects": {
+        "terra": 3,
+        "vacuos": 2,
+        "praecantatio": 2
+      },
+      "reason": "Один состав для обычного, разбавленного и декоративного бассейна; creative исключён."
+    },
+    {
+      "mod": "botania",
+      "family": "Пилоны",
+      "kind": "item",
+      "targets": [
+        "botania:mana_pylon",
+        "botania:natura_pylon",
+        "botania:gaia_pylon"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "praecantatio": 3,
+        "potentia": 2
+      },
+      "reason": "Один умеренный состав для трёх пилонов."
+    },
+    {
+      "mod": "botania",
+      "family": "Рунический алтарь",
+      "kind": "item",
+      "targets": [
+        "botania:runic_altar"
+      ],
+      "aspects": {
+        "terra": 3,
+        "praecantatio": 3,
+        "fabrico": 2
+      },
+      "reason": "Ритуальное изготовление рун."
+    },
+    {
+      "mod": "botania",
+      "family": "Лепестковые аптекари",
+      "kind": "item",
+      "targets": [
+        "botania:apothecary_deepslate",
+        "botania:apothecary_default",
+        "botania:apothecary_desert",
+        "botania:apothecary_forest",
+        "botania:apothecary_fungal",
+        "botania:apothecary_livingrock",
+        "botania:apothecary_mesa",
+        "botania:apothecary_mossy",
+        "botania:apothecary_mountain",
+        "botania:apothecary_plains",
+        "botania:apothecary_swamp",
+        "botania:apothecary_taiga"
+      ],
+      "aspects": {
+        "terra": 3,
+        "herba": 2,
+        "fabrico": 1
+      },
+      "reason": "Один состав для всех материалов аптекаря."
+    },
+    {
+      "mod": "botania",
+      "family": "Портал в Альфхейм",
+      "kind": "item",
+      "targets": [
+        "botania:alfheim_portal"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "iter": 4,
+        "praecantatio": 3
+      },
+      "reason": "Межмировая торговля через деревянный портал."
+    },
+    {
+      "mod": "botania",
+      "family": "Катализаторы",
+      "kind": "item",
+      "targets": [
+        "botania:alchemy_catalyst",
+        "botania:conjuration_catalyst"
+      ],
+      "aspects": {
+        "terra": 2,
+        "permutatio": 3,
+        "praecantatio": 2
+      },
+      "reason": "Магическое преобразование; без аспектов пустоты за каждую копию предмета."
+    },
+    {
+      "mod": "botania",
+      "family": "Мана-искра",
+      "kind": "item",
+      "targets": [
+        "botania:spark",
+        "botania:corporea_spark",
+        "botania:corporea_spark_master"
+      ],
+      "aspects": {
+        "aer": 1,
+        "motus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Магическая передача; сущности-искры отдельно не сканируются как мобы."
+    },
+    {
+      "mod": "botania",
+      "family": "Чистая маргаритка",
+      "kind": "item",
+      "targets": [
+        "botania:pure_daisy",
+        "botania:floating_pure_daisy"
+      ],
+      "aspects": {
+        "herba": 2,
+        "permutatio": 2,
+        "praecantatio": 1
+      },
+      "reason": "Преобразует камень и древесину; плавающая форма идентична."
+    },
+    {
+      "mod": "botania",
+      "family": "Огненные цветы",
+      "kind": "item",
+      "targets": [
+        "botania:endoflame",
+        "botania:floating_endoflame",
+        "botania:thermalily",
+        "botania:floating_thermalily"
+      ],
+      "aspects": {
+        "herba": 2,
+        "ignis": 2,
+        "praecantatio": 1
+      },
+      "reason": "Питание топливом или лавой."
+    },
+    {
+      "mod": "botania",
+      "family": "Водогортензия",
+      "kind": "item",
+      "targets": [
+        "botania:hydroangeas",
+        "botania:floating_hydroangeas"
+      ],
+      "aspects": {
+        "herba": 2,
+        "aqua": 2,
+        "praecantatio": 1
+      },
+      "reason": "Питание водой."
+    },
+    {
+      "mod": "botania",
+      "family": "Пищевые цветы",
+      "kind": "item",
+      "targets": [
+        "botania:gourmaryllis",
+        "botania:floating_gourmaryllis",
+        "botania:kekimurus",
+        "botania:floating_kekimurus"
+      ],
+      "aspects": {
+        "herba": 2,
+        "gula": 2,
+        "praecantatio": 1
+      },
+      "reason": "Поглощают еду или торт; один набор для близкой функции."
+    },
+    {
+      "mod": "botania",
+      "family": "Роза Аркана",
+      "kind": "item",
+      "targets": [
+        "botania:rosa_arcana",
+        "botania:floating_rosa_arcana"
+      ],
+      "aspects": {
+        "herba": 2,
+        "cognitio": 2,
+        "praecantatio": 1
+      },
+      "reason": "Поглощает опыт."
+    },
+    {
+      "mod": "botania",
+      "family": "Рудоцветы",
+      "kind": "item",
+      "targets": [
+        "botania:orechid",
+        "botania:floating_orechid",
+        "botania:orechid_ignem",
+        "botania:floating_orechid_ignem"
+      ],
+      "aspects": {
+        "herba": 2,
+        "perfodio": 2,
+        "permutatio": 1
+      },
+      "reason": "Создают руды; адская форма не получает бесплатный Infernus только за место работы."
+    },
+    {
+      "mod": "botania",
+      "family": "Цветы исцеления",
+      "kind": "item",
+      "targets": [
+        "botania:fallen_kanade",
+        "botania:floating_fallen_kanade"
+      ],
+      "aspects": {
+        "herba": 2,
+        "sano": 2,
+        "praecantatio": 1
+      },
+      "reason": "Исцеляют окружающих."
+    },
+    {
+      "mod": "botania",
+      "family": "Цветы сбора",
+      "kind": "item",
+      "targets": [
+        "botania:hopperhock",
+        "botania:floating_hopperhock",
+        "botania:hopperhock_chibi",
+        "botania:floating_hopperhock_chibi"
+      ],
+      "aspects": {
+        "herba": 2,
+        "vacuos": 1,
+        "motus": 1
+      },
+      "reason": "Собирают предметы; мини- и плавающие формы не усиливаются."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Таблички",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:blankslate",
+        "bloodmagic:reinforcedslate",
+        "bloodmagic:infusedslate",
+        "bloodmagic:demonslate",
+        "bloodmagic:etherealslate"
+      ],
+      "aspects": {
+        "terra": 2,
+        "victus": 1,
+        "praecantatio": 1
+      },
+      "reason": "Все пять табличек имеют один состав. Новые уровни не открывают отдельные редкие аспекты."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кровавые сферы",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:weakbloodorb",
+        "bloodmagic:apprenticebloodorb",
+        "bloodmagic:magicianbloodorb",
+        "bloodmagic:masterbloodorb",
+        "bloodmagic:archmagebloodorb"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "victus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Один состав для всех рангов; ёмкость и текущие LP не считаются содержимым предмета."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Воля демона",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:basemonstersoul",
+        "bloodmagic:basemonstersoul_corrosive",
+        "bloodmagic:basemonstersoul_destructive",
+        "bloodmagic:basemonstersoul_steadfast",
+        "bloodmagic:basemonstersoul_vengeful"
+      ],
+      "aspects": {
+        "spiritus": 2,
+        "infernus": 1
+      },
+      "reason": "Все оттенки воли одинаковы; не масштабируется от численного запаса."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кристаллы воли",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:defaultcrystal",
+        "bloodmagic:corrosivecrystal",
+        "bloodmagic:destructivecrystal",
+        "bloodmagic:steadfastcrystal",
+        "bloodmagic:vengefulcrystal"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "spiritus": 1,
+        "infernus": 1
+      },
+      "reason": "Единый состав цветовых состояний воли."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кластеры воли",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:rawdemoncrystal",
+        "bloodmagic:corrosivedemoncrystal",
+        "bloodmagic:destructivedemoncrystal",
+        "bloodmagic:steadfastdemoncrystal",
+        "bloodmagic:vengefuldemoncrystal"
+      ],
+      "aspects": {
+        "vitreus": 4,
+        "spiritus": 2,
+        "infernus": 1
+      },
+      "reason": "Материальный кристаллический кластер, без пяти отдельных редких наборов."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Камни душ",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:soulgempetty",
+        "bloodmagic:soulgemlesser",
+        "bloodmagic:soulgemcommon",
+        "bloodmagic:soulgemgreater"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "vinculum": 2,
+        "praecantatio": 1
+      },
+      "reason": "Носители воли. Пустому камню не приписывается содержимое или запас воли."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кровавый алтарь",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:altar"
+      ],
+      "aspects": {
+        "terra": 4,
+        "victus": 3,
+        "praecantatio": 3
+      },
+      "reason": "Ритуальная обработка жизненной эссенции."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Благовонный алтарь",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:incensealtar"
+      ],
+      "aspects": {
+        "terra": 3,
+        "herba": 2,
+        "praecantatio": 2
+      },
+      "reason": "Растительные благовония и ритуал."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Рунические блоки алтаря",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:accelerationrune",
+        "bloodmagic:accelerationrune2",
+        "bloodmagic:altarcapacityrune",
+        "bloodmagic:altarcapacityrune2",
+        "bloodmagic:bettercapacityrune",
+        "bloodmagic:bettercapacityrune2",
+        "bloodmagic:blankrune",
+        "bloodmagic:chargingrune",
+        "bloodmagic:chargingrune2",
+        "bloodmagic:dislocationrune",
+        "bloodmagic:dislocationrune2",
+        "bloodmagic:orbcapacityrune",
+        "bloodmagic:orbcapacityrune2",
+        "bloodmagic:sacrificerune",
+        "bloodmagic:sacrificerune2",
+        "bloodmagic:selfsacrificerune",
+        "bloodmagic:selfsacrificerune2",
+        "bloodmagic:speedrune",
+        "bloodmagic:speedrune2"
+      ],
+      "aspects": {
+        "terra": 2,
+        "praecantatio": 1,
+        "victus": 1
+      },
+      "reason": "Один небольшой состав для обычных и усиленных рун; функция учитывается в рецептах, без коллекции редких аспектов."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Ритуальные камни",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:ritualstone",
+        "bloodmagic:masterritualstone",
+        "bloodmagic:airritualstone",
+        "bloodmagic:waterritualstone",
+        "bloodmagic:fireritualstone",
+        "bloodmagic:earthritualstone",
+        "bloodmagic:duskritualstone",
+        "bloodmagic:lightritualstone"
+      ],
+      "aspects": {
+        "terra": 2,
+        "praecantatio": 2
+      },
+      "reason": "Единое семейство частей ритуала."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Жертвенные ножи",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:sacrificialdagger",
+        "bloodmagic:daggerofsacrifice"
+      ],
+      "aspects": {
+        "metallum": 2,
+        "telum": 2,
+        "victus": 1
+      },
+      "reason": "Инструмент жертвоприношения; без предположения о врождённой порче."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Ловушка душ",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:soulsnare"
+      ],
+      "aspects": {
+        "vinculum": 2,
+        "spiritus": 1,
+        "praecantatio": 1
+      },
+      "reason": "Связывание воли существа."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кузница адского огня",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:soulforge"
+      ],
+      "aspects": {
+        "terra": 3,
+        "fabrico": 3,
+        "infernus": 2
+      },
+      "reason": "Демоническое изготовление, а не обычная печь."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Демонические устройства",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:demoncrucible",
+        "bloodmagic:demoncrystallizer",
+        "bloodmagic:demonpylon"
+      ],
+      "aspects": {
+        "terra": 3,
+        "infernus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Единая группа устройств обработки демонической воли."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Алхимические устройства",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:alchemytable",
+        "bloodmagic:alchemicalreactionchamber"
+      ],
+      "aspects": {
+        "fabrico": 3,
+        "permutatio": 2,
+        "praecantatio": 2
+      },
+      "reason": "Алхимическая обработка."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Адский слиток",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:ingot_hellforged"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "infernus": 1
+      },
+      "reason": "Демонический металл; декоративные блоки выводятся из рецептов."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Демонит",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:rawdemonite"
+      ],
+      "aspects": {
+        "terra": 1,
+        "metallum": 2,
+        "infernus": 1
+      },
+      "reason": "Сырой демонический металл."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Магический пепел",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:arcaneashes"
+      ],
+      "aspects": {
+        "ignis": 1,
+        "praecantatio": 2
+      },
+      "reason": "Ритуальная зола."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Лавовый кристалл",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:lavacrystal"
+      ],
+      "aspects": {
+        "vitreus": 2,
+        "ignis": 2,
+        "potentia": 1
+      },
+      "reason": "Топливный кристалл."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кристаллы активации",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:activationcrystalweak",
+        "bloodmagic:activationcrystalawakened"
+      ],
+      "aspects": {
+        "vitreus": 2,
+        "praecantatio": 2,
+        "potentia": 1
+      },
+      "reason": "Одинаковая ритуальная активация; creative исключён."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Кровь в ведре",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:life_essence_bucket"
+      ],
+      "aspects": {
+        "metallum": 1,
+        "victus": 3,
+        "aqua": 1
+      },
+      "reason": "Физическое ведро жизненной эссенции; не приписывает объём LP."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Телеустановщик",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:teleposer"
+      ],
+      "aspects": {
+        "machina": 3,
+        "iter": 3,
+        "praecantatio": 2
+      },
+      "reason": "Перемещение блоков."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Фокусы телеустановки",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:teleposerfocus",
+        "bloodmagic:enhancedteleposerfocus",
+        "bloodmagic:reinforcedteleposerfocus"
+      ],
+      "aspects": {
+        "vitreus": 2,
+        "iter": 2,
+        "praecantatio": 1
+      },
+      "reason": "Один состав трёх радиусов действия."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Сигилы видения",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:divinationsigil",
+        "bloodmagic:seersigil"
+      ],
+      "aspects": {
+        "sensus": 2,
+        "praecantatio": 2,
+        "terra": 1
+      },
+      "reason": "Информация об алтаре и окружении."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил watersigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:watersigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "aqua": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил lavasigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:lavasigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "ignis": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил airsigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:airsigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "aer": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил voidsigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:voidsigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "vacuos": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил bloodlightsigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:bloodlightsigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "lux": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил growthsigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:growthsigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "herba": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил miningsigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:miningsigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "perfodio": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил icesigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:icesigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "gelum": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил telepositionsigil",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:telepositionsigil"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "iter": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил sigilofmagnetism",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:sigilofmagnetism"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "motus": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил sigilofholding",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:sigilofholding"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "vinculum": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Функциональный сигил sigilofsuppression",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:sigilofsuppression"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2,
+        "perditio": 2
+      },
+      "reason": "Аспект фактической функции сигила, а не его уровня."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Ритуальные инструменты",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:ritualdiviner",
+        "bloodmagic:ritualdivinerdusk",
+        "bloodmagic:ritualtinkerer"
+      ],
+      "aspects": {
+        "instrumentum": 2,
+        "praecantatio": 2
+      },
+      "reason": "Одно семейство настройки ритуала."
+    },
+    {
+      "mod": "bloodmagic",
+      "family": "Живая броня",
+      "kind": "item",
+      "targets": [
+        "bloodmagic:livinghelmet",
+        "bloodmagic:livingplate",
+        "bloodmagic:livingleggings",
+        "bloodmagic:livingboots"
+      ],
+      "aspects": {
+        "tutamen": 3,
+        "victus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Единый умеренный состав всех частей; боевая статистика не меняется."
+    },
+    {
+      "mod": "witchery",
+      "family": "mandrake_root",
+      "kind": "item",
+      "targets": [
+        "witchery:mandrake_root"
+      ],
+      "aspects": {
+        "herba": 2,
+        "spiritus": 1
+      },
+      "reason": "Корень живого магического растения."
+    },
+    {
+      "mod": "witchery",
+      "family": "belladonna_flower/wolfsbane/wormwood",
+      "kind": "item",
+      "targets": [
+        "witchery:belladonna_flower",
+        "witchery:wolfsbane",
+        "witchery:wormwood"
+      ],
+      "aspects": {
+        "herba": 2,
+        "venenum": 1
+      },
+      "reason": "Ядовитые ритуальные травы."
+    },
+    {
+      "mod": "witchery",
+      "family": "water_artichoke_globe",
+      "kind": "item",
+      "targets": [
+        "witchery:water_artichoke_globe"
+      ],
+      "aspects": {
+        "herba": 2,
+        "aqua": 1
+      },
+      "reason": "Водное растение."
+    },
+    {
+      "mod": "witchery",
+      "family": "rowan_berries/garlic",
+      "kind": "item",
+      "targets": [
+        "witchery:rowan_berries",
+        "witchery:garlic"
+      ],
+      "aspects": {
+        "herba": 1,
+        "victus": 1
+      },
+      "reason": "Обычная растительная пища, без автоматической магии."
+    },
+    {
+      "mod": "witchery",
+      "family": "wood_ash",
+      "kind": "item",
+      "targets": [
+        "witchery:wood_ash"
+      ],
+      "aspects": {
+        "ignis": 1,
+        "terra": 1
+      },
+      "reason": "Древесная зола."
+    },
+    {
+      "mod": "witchery",
+      "family": "wool_of_bat",
+      "kind": "item",
+      "targets": [
+        "witchery:wool_of_bat"
+      ],
+      "aspects": {
+        "pannus": 1,
+        "bestia": 1,
+        "volatus": 1
+      },
+      "reason": "Материал летучей мыши."
+    },
+    {
+      "mod": "witchery",
+      "family": "toe_of_frog/tongue_of_dog",
+      "kind": "item",
+      "targets": [
+        "witchery:toe_of_frog",
+        "witchery:tongue_of_dog"
+      ],
+      "aspects": {
+        "corpus": 2,
+        "bestia": 1
+      },
+      "reason": "Часть тела животного."
+    },
+    {
+      "mod": "witchery",
+      "family": "owlets_wing",
+      "kind": "item",
+      "targets": [
+        "witchery:owlets_wing"
+      ],
+      "aspects": {
+        "volatus": 2,
+        "bestia": 1
+      },
+      "reason": "Крыло совы."
+    },
+    {
+      "mod": "witchery",
+      "family": "ent_twig",
+      "kind": "item",
+      "targets": [
+        "witchery:ent_twig"
+      ],
+      "aspects": {
+        "arbor": 2,
+        "victus": 1
+      },
+      "reason": "Ветвь живого дерева."
+    },
+    {
+      "mod": "witchery",
+      "family": "bottle_of_blood",
+      "kind": "item",
+      "targets": [
+        "witchery:bottle_of_blood"
+      ],
+      "aspects": {
+        "vitreus": 1,
+        "victus": 2,
+        "corpus": 1
+      },
+      "reason": "Кровь в стекле."
+    },
+    {
+      "mod": "witchery",
+      "family": "demons_blood",
+      "kind": "item",
+      "targets": [
+        "witchery:demons_blood"
+      ],
+      "aspects": {
+        "victus": 2,
+        "infernus": 2
+      },
+      "reason": "Явно демоническая кровь, а не всякая кровь."
+    },
+    {
+      "mod": "witchery",
+      "family": "demon_heart",
+      "kind": "item",
+      "targets": [
+        "witchery:demon_heart"
+      ],
+      "aspects": {
+        "corpus": 3,
+        "victus": 2,
+        "infernus": 2
+      },
+      "reason": "Сердце демона."
+    },
+    {
+      "mod": "witchery",
+      "family": "spectral_dust/phantom_vapor",
+      "kind": "item",
+      "targets": [
+        "witchery:spectral_dust",
+        "witchery:phantom_vapor"
+      ],
+      "aspects": {
+        "spiritus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Призрачная субстанция."
+    },
+    {
+      "mod": "witchery",
+      "family": "whiff_of_magic",
+      "kind": "item",
+      "targets": [
+        "witchery:whiff_of_magic"
+      ],
+      "aspects": {
+        "aer": 1,
+        "praecantatio": 2
+      },
+      "reason": "Магическое испарение."
+    },
+    {
+      "mod": "witchery",
+      "family": "foul_fume",
+      "kind": "item",
+      "targets": [
+        "witchery:foul_fume"
+      ],
+      "aspects": {
+        "aer": 1,
+        "venenum": 2
+      },
+      "reason": "Вредные испарения."
+    },
+    {
+      "mod": "witchery",
+      "family": "breath_of_the_goddess",
+      "kind": "item",
+      "targets": [
+        "witchery:breath_of_the_goddess"
+      ],
+      "aspects": {
+        "aer": 2,
+        "victus": 1
+      },
+      "reason": "Жизненное дыхание."
+    },
+    {
+      "mod": "witchery",
+      "family": "exhale_of_the_horned_one",
+      "kind": "item",
+      "targets": [
+        "witchery:exhale_of_the_horned_one"
+      ],
+      "aspects": {
+        "aer": 1,
+        "bestia": 1,
+        "praecantatio": 1
+      },
+      "reason": "Ритуальное дыхание Рогатого, без автоматической демонизации."
+    },
+    {
+      "mod": "witchery",
+      "family": "hint_of_rebirth",
+      "kind": "item",
+      "targets": [
+        "witchery:hint_of_rebirth"
+      ],
+      "aspects": {
+        "victus": 2,
+        "sano": 1
+      },
+      "reason": "Возрождение и восстановление."
+    },
+    {
+      "mod": "witchery",
+      "family": "odor_of_purity/tear_of_the_goddess",
+      "kind": "item",
+      "targets": [
+        "witchery:odor_of_purity",
+        "witchery:tear_of_the_goddess"
+      ],
+      "aspects": {
+        "sano": 2,
+        "aqua": 1
+      },
+      "reason": "Очищение и исцеление."
+    },
+    {
+      "mod": "witchery",
+      "family": "oil_of_vitriol",
+      "kind": "item",
+      "targets": [
+        "witchery:oil_of_vitriol"
+      ],
+      "aspects": {
+        "venenum": 2,
+        "perditio": 1
+      },
+      "reason": "Едкое алхимическое вещество."
+    },
+    {
+      "mod": "witchery",
+      "family": "mutandis/mutandis_extremis",
+      "kind": "item",
+      "targets": [
+        "witchery:mutandis",
+        "witchery:mutandis_extremis"
+      ],
+      "aspects": {
+        "herba": 2,
+        "permutatio": 2
+      },
+      "reason": "Один состав преобразующей смеси независимо от усиления."
+    },
+    {
+      "mod": "witchery",
+      "family": "attuned_stone",
+      "kind": "item",
+      "targets": [
+        "witchery:attuned_stone"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "praecantatio": 2
+      },
+      "reason": "Магически настроенный камень; заряд не увеличивает состав."
+    },
+    {
+      "mod": "witchery",
+      "family": "necromantic_stone",
+      "kind": "item",
+      "targets": [
+        "witchery:necromantic_stone"
+      ],
+      "aspects": {
+        "terra": 1,
+        "exanimis": 2,
+        "spiritus": 1
+      },
+      "reason": "Некромантический камень."
+    },
+    {
+      "mod": "witchery",
+      "family": "infernal_animus",
+      "kind": "item",
+      "targets": [
+        "witchery:infernal_animus"
+      ],
+      "aspects": {
+        "spiritus": 2,
+        "infernus": 2
+      },
+      "reason": "Адская одушевляющая сущность."
+    },
+    {
+      "mod": "witchery",
+      "family": "refined_evil",
+      "kind": "item",
+      "targets": [
+        "witchery:refined_evil"
+      ],
+      "aspects": {
+        "infernus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Очищенная демоническая сущность; не таумкрафтовская порча."
+    },
+    {
+      "mod": "witchery",
+      "family": "soul_of_the_world",
+      "kind": "item",
+      "targets": [
+        "witchery:soul_of_the_world"
+      ],
+      "aspects": {
+        "spiritus": 3,
+        "victus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Душа мира."
+    },
+    {
+      "mod": "witchery",
+      "family": "spirit_of_otherwhere",
+      "kind": "item",
+      "targets": [
+        "witchery:spirit_of_otherwhere"
+      ],
+      "aspects": {
+        "spiritus": 2,
+        "iter": 2
+      },
+      "reason": "Связь с иным местом."
+    },
+    {
+      "mod": "witchery",
+      "family": "condensed_fear",
+      "kind": "item",
+      "targets": [
+        "witchery:condensed_fear"
+      ],
+      "aspects": {
+        "sensus": 2,
+        "tenebrae": 1
+      },
+      "reason": "Страх, а не отдельная выдуманная стихия."
+    },
+    {
+      "mod": "witchery",
+      "family": "focused_will",
+      "kind": "item",
+      "targets": [
+        "witchery:focused_will"
+      ],
+      "aspects": {
+        "cognitio": 2,
+        "praecantatio": 1
+      },
+      "reason": "Сосредоточенная воля."
+    },
+    {
+      "mod": "witchery",
+      "family": "flying_ointment",
+      "kind": "item",
+      "targets": [
+        "witchery:flying_ointment"
+      ],
+      "aspects": {
+        "volatus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Полёт."
+    },
+    {
+      "mod": "witchery",
+      "family": "taglock",
+      "kind": "item",
+      "targets": [
+        "witchery:taglock"
+      ],
+      "aspects": {
+        "vitreus": 1,
+        "vinculum": 1
+      },
+      "reason": "Носитель связи; пустой образец не содержит чужой души."
+    },
+    {
+      "mod": "witchery",
+      "family": "arthana",
+      "kind": "item",
+      "targets": [
+        "witchery:arthana"
+      ],
+      "aspects": {
+        "metallum": 2,
+        "telum": 2,
+        "praecantatio": 1
+      },
+      "reason": "Ритуальный клинок."
+    },
+    {
+      "mod": "witchery",
+      "family": "broom",
+      "kind": "item",
+      "targets": [
+        "witchery:broom"
+      ],
+      "aspects": {
+        "arbor": 2,
+        "volatus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Летающая метла."
+    },
+    {
+      "mod": "witchery",
+      "family": "waystone",
+      "kind": "item",
+      "targets": [
+        "witchery:waystone"
+      ],
+      "aspects": {
+        "terra": 2,
+        "iter": 2,
+        "praecantatio": 1
+      },
+      "reason": "Камень привязки перемещения."
+    },
+    {
+      "mod": "witchery",
+      "family": "seer_stone/crystal_ball",
+      "kind": "item",
+      "targets": [
+        "witchery:seer_stone",
+        "witchery:crystal_ball"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "sensus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Ясновидение."
+    },
+    {
+      "mod": "witchery",
+      "family": "koboldite_ingot",
+      "kind": "item",
+      "targets": [
+        "witchery:koboldite_ingot"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "lucrum": 1
+      },
+      "reason": "Кобольдит — металл хобгоблинов."
+    },
+    {
+      "mod": "witchery",
+      "family": "demonic_contract",
+      "kind": "item",
+      "targets": [
+        "witchery:demonic_contract"
+      ],
+      "aspects": {
+        "pannus": 1,
+        "vinculum": 2,
+        "infernus": 2
+      },
+      "reason": "Демонический договор, не просто бумага."
+    },
+    {
+      "mod": "witchery",
+      "family": "guidebook/torn_page",
+      "kind": "item",
+      "targets": [
+        "witchery:guidebook",
+        "witchery:torn_page"
+      ],
+      "aspects": {
+        "cognitio": 2,
+        "praecantatio": 1
+      },
+      "reason": "Семейство магических записей."
+    },
+    {
+      "mod": "witchery",
+      "family": "ritual_chalk/golden_ritual_chalk/infernal_chalk/otherwhere_chalk/binding_chalk",
+      "kind": "item",
+      "targets": [
+        "witchery:ritual_chalk",
+        "witchery:golden_ritual_chalk",
+        "witchery:infernal_chalk",
+        "witchery:otherwhere_chalk",
+        "witchery:binding_chalk"
+      ],
+      "aspects": {
+        "terra": 1,
+        "praecantatio": 2
+      },
+      "reason": "Все виды ритуального мела — один состав без лестницы редких аспектов."
+    },
+    {
+      "mod": "witchery",
+      "family": "poppet/armor_protection_poppet/corrupt_poppet/death_protection_poppet/hunger_protection_poppet/vampiric_poppet/voodoo_poppet/voodoo_protection_poppet",
+      "kind": "item",
+      "targets": [
+        "witchery:poppet",
+        "witchery:armor_protection_poppet",
+        "witchery:corrupt_poppet",
+        "witchery:death_protection_poppet",
+        "witchery:hunger_protection_poppet",
+        "witchery:vampiric_poppet",
+        "witchery:voodoo_poppet",
+        "witchery:voodoo_protection_poppet"
+      ],
+      "aspects": {
+        "pannus": 2,
+        "vinculum": 2,
+        "praecantatio": 1
+      },
+      "reason": "Одна семья кукол; привязка не создаёт физическую душу внутри."
+    },
+    {
+      "mod": "witchery",
+      "family": "altar",
+      "kind": "item",
+      "targets": [
+        "witchery:altar"
+      ],
+      "aspects": {
+        "terra": 3,
+        "praecantatio": 3,
+        "herba": 1
+      },
+      "reason": "Природный ритуальный алтарь."
+    },
+    {
+      "mod": "witchery",
+      "family": "cauldron",
+      "kind": "item",
+      "targets": [
+        "witchery:cauldron"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "aqua": 2,
+        "permutatio": 2
+      },
+      "reason": "Ведьмин котёл для смешивания."
+    },
+    {
+      "mod": "witchery",
+      "family": "distillery",
+      "kind": "item",
+      "targets": [
+        "witchery:distillery"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "permutatio": 2,
+        "aer": 1
+      },
+      "reason": "Дистилляция испарений."
+    },
+    {
+      "mod": "witchery",
+      "family": "brazier/censer",
+      "kind": "item",
+      "targets": [
+        "witchery:brazier",
+        "witchery:censer"
+      ],
+      "aspects": {
+        "metallum": 2,
+        "ignis": 2,
+        "praecantatio": 1
+      },
+      "reason": "Ритуальное горение и дым."
+    },
+    {
+      "mod": "witchery",
+      "family": "spinning_wheel",
+      "kind": "item",
+      "targets": [
+        "witchery:spinning_wheel"
+      ],
+      "aspects": {
+        "arbor": 3,
+        "machina": 2,
+        "pannus": 1
+      },
+      "reason": "Прядильный механизм."
+    },
+    {
+      "mod": "witchery",
+      "family": "blood_crucible",
+      "kind": "item",
+      "targets": [
+        "witchery:blood_crucible"
+      ],
+      "aspects": {
+        "terra": 3,
+        "victus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Сосуд крови."
+    },
+    {
+      "mod": "witchery",
+      "family": "mirror",
+      "kind": "item",
+      "targets": [
+        "witchery:mirror"
+      ],
+      "aspects": {
+        "vitreus": 3,
+        "sensus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Магическое отражение; служебный dimensional_mirror не имеет собственного предмета."
+    },
+    {
+      "mod": "witchery",
+      "family": "bear_trap/critter_snare/cage",
+      "kind": "item",
+      "targets": [
+        "witchery:bear_trap",
+        "witchery:critter_snare",
+        "witchery:cage"
+      ],
+      "aspects": {
+        "metallum": 2,
+        "vinculum": 2
+      },
+      "reason": "Удержание животных."
+    },
+    {
+      "mod": "witchery",
+      "family": "Ведьмины печи",
+      "kind": "item",
+      "targets": [
+        "witchery:copper_witches_oven",
+        "witchery:exposed_copper_witches_oven",
+        "witchery:iron_witches_oven",
+        "witchery:oxidized_copper_witches_oven",
+        "witchery:waxed_copper_witches_oven",
+        "witchery:waxed_exposed_copper_witches_oven",
+        "witchery:waxed_oxidized_copper_witches_oven",
+        "witchery:waxed_weathered_copper_witches_oven",
+        "witchery:weathered_copper_witches_oven"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "ignis": 2,
+        "machina": 1
+      },
+      "reason": "Один состав всех материалов и окислений печи."
+    },
+    {
+      "mod": "witchery",
+      "family": "Медные котлы",
+      "kind": "item",
+      "targets": [
+        "witchery:copper_cauldron",
+        "witchery:exposed_copper_cauldron",
+        "witchery:oxidized_copper_cauldron",
+        "witchery:waxed_copper_cauldron",
+        "witchery:waxed_exposed_copper_cauldron",
+        "witchery:waxed_oxidized_copper_cauldron",
+        "witchery:waxed_weathered_copper_cauldron",
+        "witchery:weathered_copper_cauldron"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "aqua": 2,
+        "permutatio": 2
+      },
+      "reason": "Одинаковые аспекты всех степеней окисления."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "liveroot",
+      "kind": "item",
+      "targets": [
+        "twilightforest:liveroot"
+      ],
+      "aspects": {
+        "herba": 2,
+        "victus": 2
+      },
+      "reason": "Живой корень."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "raw_ironwood",
+      "kind": "item",
+      "targets": [
+        "twilightforest:raw_ironwood"
+      ],
+      "aspects": {
+        "metallum": 2,
+        "arbor": 2,
+        "victus": 1
+      },
+      "reason": "Железодревесный материал."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "ironwood_ingot",
+      "kind": "item",
+      "targets": [
+        "twilightforest:ironwood_ingot"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "arbor": 1,
+        "praecantatio": 1
+      },
+      "reason": "Сплав железа и живой древесины."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "steeleaf_ingot",
+      "kind": "item",
+      "targets": [
+        "twilightforest:steeleaf_ingot"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "herba": 2
+      },
+      "reason": "Прочный листовой материал."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "knightmetal_ingot",
+      "kind": "item",
+      "targets": [
+        "twilightforest:knightmetal_ingot"
+      ],
+      "aspects": {
+        "metallum": 4,
+        "tutamen": 1
+      },
+      "reason": "Прочный рыцарский металл."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "fiery_ingot",
+      "kind": "item",
+      "targets": [
+        "twilightforest:fiery_ingot"
+      ],
+      "aspects": {
+        "metallum": 3,
+        "ignis": 2
+      },
+      "reason": "Огненный сплав."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "fiery_blood/fiery_tears",
+      "kind": "item",
+      "targets": [
+        "twilightforest:fiery_blood",
+        "twilightforest:fiery_tears"
+      ],
+      "aspects": {
+        "victus": 2,
+        "ignis": 2
+      },
+      "reason": "Один состав огненных жидкостей; не адская кровь."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "naga_scale",
+      "kind": "item",
+      "targets": [
+        "twilightforest:naga_scale"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "tutamen": 2
+      },
+      "reason": "Защитная чешуя наги."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "arctic_fur/alpha_yeti_fur",
+      "kind": "item",
+      "targets": [
+        "twilightforest:arctic_fur",
+        "twilightforest:alpha_yeti_fur"
+      ],
+      "aspects": {
+        "pannus": 2,
+        "gelum": 2
+      },
+      "reason": "Один состав холодного меха."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "raven_feather",
+      "kind": "item",
+      "targets": [
+        "twilightforest:raven_feather"
+      ],
+      "aspects": {
+        "volatus": 2,
+        "bestia": 1
+      },
+      "reason": "Перо птицы без выдуманной тёмной магии."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "torchberries",
+      "kind": "item",
+      "targets": [
+        "twilightforest:torchberries"
+      ],
+      "aspects": {
+        "herba": 1,
+        "lux": 2
+      },
+      "reason": "Светящиеся ягоды."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "carminite",
+      "kind": "item",
+      "targets": [
+        "twilightforest:carminite"
+      ],
+      "aspects": {
+        "vitreus": 2,
+        "machina": 2,
+        "praecantatio": 1
+      },
+      "reason": "Магический компонент башенных механизмов."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "transformation_powder",
+      "kind": "item",
+      "targets": [
+        "twilightforest:transformation_powder"
+      ],
+      "aspects": {
+        "permutatio": 2,
+        "praecantatio": 1
+      },
+      "reason": "Изменение существ."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "magic_beans",
+      "kind": "item",
+      "targets": [
+        "twilightforest:magic_beans"
+      ],
+      "aspects": {
+        "herba": 2,
+        "victus": 1,
+        "praecantatio": 1
+      },
+      "reason": "Магическое растение."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "magic_map_focus/maze_map_focus",
+      "kind": "item",
+      "targets": [
+        "twilightforest:magic_map_focus",
+        "twilightforest:maze_map_focus"
+      ],
+      "aspects": {
+        "sensus": 2,
+        "cognitio": 1,
+        "praecantatio": 1
+      },
+      "reason": "Одна группа компонентов карт."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "magic_map/filled_magic_map/maze_map/filled_maze_map/ore_map/filled_ore_map",
+      "kind": "item",
+      "targets": [
+        "twilightforest:magic_map",
+        "twilightforest:filled_magic_map",
+        "twilightforest:maze_map",
+        "twilightforest:filled_maze_map",
+        "twilightforest:ore_map",
+        "twilightforest:filled_ore_map"
+      ],
+      "aspects": {
+        "cognitio": 2,
+        "sensus": 2,
+        "iter": 1
+      },
+      "reason": "Один состав пустых и заполненных карт, без награды за каждый вид карты."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "charm_of_life_1/charm_of_life_2",
+      "kind": "item",
+      "targets": [
+        "twilightforest:charm_of_life_1",
+        "twilightforest:charm_of_life_2"
+      ],
+      "aspects": {
+        "sano": 2,
+        "victus": 2,
+        "praecantatio": 1
+      },
+      "reason": "Единая семья оберегов жизни."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "charm_of_keeping_1/charm_of_keeping_2/charm_of_keeping_3",
+      "kind": "item",
+      "targets": [
+        "twilightforest:charm_of_keeping_1",
+        "twilightforest:charm_of_keeping_2",
+        "twilightforest:charm_of_keeping_3"
+      ],
+      "aspects": {
+        "vinculum": 2,
+        "vacuos": 1,
+        "praecantatio": 1
+      },
+      "reason": "Единая семья удержания инвентаря."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "twilight_scepter",
+      "kind": "item",
+      "targets": [
+        "twilightforest:twilight_scepter"
+      ],
+      "aspects": {
+        "telum": 2,
+        "praecantatio": 3
+      },
+      "reason": "Магический выстрел."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "lifedrain_scepter",
+      "kind": "item",
+      "targets": [
+        "twilightforest:lifedrain_scepter"
+      ],
+      "aspects": {
+        "telum": 2,
+        "victus": 2,
+        "fames": 1
+      },
+      "reason": "Похищение жизненной силы."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "zombie_scepter",
+      "kind": "item",
+      "targets": [
+        "twilightforest:zombie_scepter"
+      ],
+      "aspects": {
+        "exanimis": 2,
+        "vinculum": 2,
+        "praecantatio": 1
+      },
+      "reason": "Призыв и управление нежитью."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "fortification_scepter",
+      "kind": "item",
+      "targets": [
+        "twilightforest:fortification_scepter"
+      ],
+      "aspects": {
+        "tutamen": 3,
+        "praecantatio": 2
+      },
+      "reason": "Защитный барьер."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "ore_magnet",
+      "kind": "item",
+      "targets": [
+        "twilightforest:ore_magnet"
+      ],
+      "aspects": {
+        "perfodio": 2,
+        "motus": 2
+      },
+      "reason": "Перемещение руд."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "ore_meter",
+      "kind": "item",
+      "targets": [
+        "twilightforest:ore_meter"
+      ],
+      "aspects": {
+        "perfodio": 2,
+        "sensus": 2
+      },
+      "reason": "Поиск руд."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "crumble_horn",
+      "kind": "item",
+      "targets": [
+        "twilightforest:crumble_horn"
+      ],
+      "aspects": {
+        "instrumentum": 2,
+        "perditio": 2
+      },
+      "reason": "Разрушение породы."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "moonworm_queen",
+      "kind": "item",
+      "targets": [
+        "twilightforest:moonworm_queen"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "lux": 2
+      },
+      "reason": "Создаёт светящихся лунных червей."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "peacock_feather_fan",
+      "kind": "item",
+      "targets": [
+        "twilightforest:peacock_feather_fan"
+      ],
+      "aspects": {
+        "volatus": 2,
+        "motus": 2
+      },
+      "reason": "Веер, создающий подъём."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "lamp_of_cinders",
+      "kind": "item",
+      "targets": [
+        "twilightforest:lamp_of_cinders"
+      ],
+      "aspects": {
+        "ignis": 3,
+        "instrumentum": 2
+      },
+      "reason": "Сжигает терновник."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "cube_of_annihilation",
+      "kind": "item",
+      "targets": [
+        "twilightforest:cube_of_annihilation"
+      ],
+      "aspects": {
+        "vacuos": 3,
+        "perditio": 3,
+        "praecantatio": 2
+      },
+      "reason": "Магическое уничтожение материи."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "ice_bomb",
+      "kind": "item",
+      "targets": [
+        "twilightforest:ice_bomb"
+      ],
+      "aspects": {
+        "gelum": 2,
+        "perditio": 1
+      },
+      "reason": "Замораживающий снаряд."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "uncrafting_table",
+      "kind": "item",
+      "targets": [
+        "twilightforest:uncrafting_table"
+      ],
+      "aspects": {
+        "arbor": 3,
+        "fabrico": 2,
+        "permutatio": 2
+      },
+      "reason": "Разбор и перекрафт."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "time_log_core",
+      "kind": "item",
+      "targets": [
+        "twilightforest:time_log_core"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "motus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Ускорение роста; отдельного аспекта времени в TC4 нет."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "transformation_log_core",
+      "kind": "item",
+      "targets": [
+        "twilightforest:transformation_log_core"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "permutatio": 2,
+        "praecantatio": 2
+      },
+      "reason": "Изменяет биом."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "mining_log_core",
+      "kind": "item",
+      "targets": [
+        "twilightforest:mining_log_core"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "perfodio": 2,
+        "praecantatio": 2
+      },
+      "reason": "Перемещает руды."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "sorting_log_core",
+      "kind": "item",
+      "targets": [
+        "twilightforest:sorting_log_core"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "ordo": 2,
+        "praecantatio": 2
+      },
+      "reason": "Упорядочивает предметы."
+    },
+    {
+      "mod": "botania",
+      "family": "pixie",
+      "kind": "entity",
+      "targets": [
+        "botania:pixie"
+      ],
+      "aspects": {
+        "aer": 1,
+        "volatus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Маленькое летающее магическое существо."
+    },
+    {
+      "mod": "botania",
+      "family": "doppleganger",
+      "kind": "entity",
+      "targets": [
+        "botania:doppleganger"
+      ],
+      "aspects": {
+        "spiritus": 4,
+        "praecantatio": 4,
+        "victus": 2,
+        "herba": 2
+      },
+      "reason": "Дух-страж Гайи."
+    },
+    {
+      "mod": "botania",
+      "family": "pink_wither",
+      "kind": "entity",
+      "targets": [
+        "botania:pink_wither"
+      ],
+      "aspects": {
+        "exanimis": 3,
+        "victus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Особая форма иссушителя, без обычного разрушительного набора."
+    },
+    {
+      "mod": "botania",
+      "family": "manaseal_creeper",
+      "kind": "entity",
+      "targets": [
+        "botania:manaseal_creeper"
+      ],
+      "aspects": {
+        "herba": 2,
+        "vinculum": 2,
+        "praecantatio": 1
+      },
+      "reason": "Крипер подавления маны."
+    },
+    {
+      "mod": "witchery",
+      "family": "owl",
+      "kind": "entity",
+      "targets": [
+        "witchery:owl"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "volatus": 2,
+        "sensus": 1
+      },
+      "reason": "Ночная птица; не получает Tenebrae только за ночной образ жизни."
+    },
+    {
+      "mod": "witchery",
+      "family": "ent",
+      "kind": "entity",
+      "targets": [
+        "witchery:ent"
+      ],
+      "aspects": {
+        "arbor": 4,
+        "victus": 2,
+        "bestia": 1
+      },
+      "reason": "Одушевлённое дерево."
+    },
+    {
+      "mod": "witchery",
+      "family": "mandrake",
+      "kind": "entity",
+      "targets": [
+        "witchery:mandrake"
+      ],
+      "aspects": {
+        "herba": 2,
+        "spiritus": 1,
+        "sensus": 1
+      },
+      "reason": "Кричащий живой корень."
+    },
+    {
+      "mod": "witchery",
+      "family": "coven_witch/baba_yaga",
+      "kind": "entity",
+      "targets": [
+        "witchery:coven_witch",
+        "witchery:baba_yaga"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "praecantatio": 3,
+        "cognitio": 2
+      },
+      "reason": "Ведьмы и их знания; без автоматического Infernus всем ведьмам."
+    },
+    {
+      "mod": "witchery",
+      "family": "demon/mirror_demon",
+      "kind": "entity",
+      "targets": [
+        "witchery:demon",
+        "witchery:mirror_demon"
+      ],
+      "aspects": {
+        "infernus": 3,
+        "spiritus": 2,
+        "praecantatio": 2
+      },
+      "reason": "Явные демоны."
+    },
+    {
+      "mod": "witchery",
+      "family": "imp",
+      "kind": "entity",
+      "targets": [
+        "witchery:imp"
+      ],
+      "aspects": {
+        "infernus": 2,
+        "bestia": 2,
+        "praecantatio": 1
+      },
+      "reason": "Малый демон."
+    },
+    {
+      "mod": "witchery",
+      "family": "poltergeist/banshee/spectre",
+      "kind": "entity",
+      "targets": [
+        "witchery:poltergeist",
+        "witchery:banshee",
+        "witchery:spectre"
+      ],
+      "aspects": {
+        "spiritus": 3,
+        "exanimis": 2,
+        "motus": 1
+      },
+      "reason": "Одно семейство духов; без множества наборов за разновидности."
+    },
+    {
+      "mod": "witchery",
+      "family": "spectral_pig",
+      "kind": "entity",
+      "targets": [
+        "witchery:spectral_pig"
+      ],
+      "aspects": {
+        "spiritus": 2,
+        "bestia": 2
+      },
+      "reason": "Призрачное животное."
+    },
+    {
+      "mod": "witchery",
+      "family": "werewolf",
+      "kind": "entity",
+      "targets": [
+        "witchery:werewolf"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "humanus": 2,
+        "ira": 1
+      },
+      "reason": "Человек-зверь с яростью."
+    },
+    {
+      "mod": "witchery",
+      "family": "vampire",
+      "kind": "entity",
+      "targets": [
+        "witchery:vampire"
+      ],
+      "aspects": {
+        "exanimis": 2,
+        "humanus": 2,
+        "fames": 2
+      },
+      "reason": "Нежить, питающаяся кровью."
+    },
+    {
+      "mod": "witchery",
+      "family": "nightmare",
+      "kind": "entity",
+      "targets": [
+        "witchery:nightmare"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "tenebrae": 2,
+        "sensus": 2
+      },
+      "reason": "Воплощённый кошмар."
+    },
+    {
+      "mod": "witchery",
+      "family": "parasitic_louse",
+      "kind": "entity",
+      "targets": [
+        "witchery:parasitic_louse"
+      ],
+      "aspects": {
+        "bestia": 1,
+        "fames": 2
+      },
+      "reason": "Паразит."
+    },
+    {
+      "mod": "witchery",
+      "family": "death",
+      "kind": "entity",
+      "targets": [
+        "witchery:death"
+      ],
+      "aspects": {
+        "mortuus": 4,
+        "spiritus": 3,
+        "alienis": 2
+      },
+      "reason": "Воплощение смерти; не источник всех редких аспектов сразу."
+    },
+    {
+      "mod": "witchery",
+      "family": "horned_huntsman",
+      "kind": "entity",
+      "targets": [
+        "witchery:horned_huntsman"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "telum": 3,
+        "praecantatio": 2
+      },
+      "reason": "Магический охотник."
+    },
+    {
+      "mod": "witchery",
+      "family": "lilith",
+      "kind": "entity",
+      "targets": [
+        "witchery:lilith"
+      ],
+      "aspects": {
+        "infernus": 3,
+        "superbia": 2,
+        "praecantatio": 3
+      },
+      "reason": "Демонический босс."
+    },
+    {
+      "mod": "witchery",
+      "family": "leonard",
+      "kind": "entity",
+      "targets": [
+        "witchery:leonard"
+      ],
+      "aspects": {
+        "infernus": 3,
+        "cognitio": 2,
+        "praecantatio": 3
+      },
+      "reason": "Демонический покровитель колдовства."
+    },
+    {
+      "mod": "witchery",
+      "family": "hunter",
+      "kind": "entity",
+      "targets": [
+        "witchery:hunter"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "telum": 2
+      },
+      "reason": "Человек-охотник."
+    },
+    {
+      "mod": "witchery",
+      "family": "hobgoblin",
+      "kind": "entity",
+      "targets": [
+        "witchery:hobgoblin"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "lucrum": 1,
+        "perfodio": 1
+      },
+      "reason": "Собиратель и рудокоп."
+    },
+    {
+      "mod": "witchery",
+      "family": "mog/gulg",
+      "kind": "entity",
+      "targets": [
+        "witchery:mog",
+        "witchery:gulg"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "praecantatio": 2,
+        "telum": 1
+      },
+      "reason": "Парные боссы хобгоблинов; классы MogEntity/GulgEntity наследуют AbstractHobgoblinBossEntity."
+    },
+    {
+      "mod": "witchery",
+      "family": "elle",
+      "kind": "entity",
+      "targets": [
+        "witchery:elle"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "praecantatio": 2,
+        "spiritus": 1
+      },
+      "reason": "Сверхъестественная форма: настоящий ElleEntity превращается в Lilith после пребывания в Аду."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "boar/deer/dwarf_rabbit/squirrel",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:boar",
+        "twilightforest:deer",
+        "twilightforest:dwarf_rabbit",
+        "twilightforest:squirrel"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "victus": 1
+      },
+      "reason": "Обычные лесные животные; кролики не получают Luxuria."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "bighorn_sheep",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:bighorn_sheep"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "pannus": 2
+      },
+      "reason": "Шерстяное животное."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "tiny_bird/raven/penguin",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:tiny_bird",
+        "twilightforest:raven",
+        "twilightforest:penguin"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "volatus": 1
+      },
+      "reason": "Одна группа птиц, без набора за каждый цвет."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "hostile_wolf",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:hostile_wolf"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "telum": 1
+      },
+      "reason": "Враждебный волк."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "mist_wolf",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:mist_wolf"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "tenebrae": 1,
+        "sensus": 1
+      },
+      "reason": "Волк с ослепляющим туманом."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "winter_wolf/yeti",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:winter_wolf",
+        "twilightforest:yeti"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "gelum": 2
+      },
+      "reason": "Холодолюбивые существа."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "alpha_yeti",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:alpha_yeti"
+      ],
+      "aspects": {
+        "bestia": 4,
+        "gelum": 4,
+        "telum": 2
+      },
+      "reason": "Крупный ледяной босс."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "hedge_spider/swarm_spider/carminite_broodling",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:hedge_spider",
+        "twilightforest:swarm_spider",
+        "twilightforest:carminite_broodling"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "venenum": 1
+      },
+      "reason": "Одна группа небольших пауков."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "king_spider",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:king_spider"
+      ],
+      "aspects": {
+        "bestia": 4,
+        "venenum": 1,
+        "superbia": 1
+      },
+      "reason": "Крупный паук-вожак; умеренная отсылка к FM."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "fire_beetle",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:fire_beetle"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "ignis": 2
+      },
+      "reason": "Огненный жук."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "slime_beetle",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:slime_beetle"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "limus": 2
+      },
+      "reason": "Слизневый жук."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "pinch_beetle",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:pinch_beetle"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "vinculum": 2
+      },
+      "reason": "Захватывает жертву; Luxuria за захват не назначается."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "helmet_crab",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:helmet_crab"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "tutamen": 1,
+        "metallum": 1
+      },
+      "reason": "Краб с металлической защитой."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "mosquito_swarm",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:mosquito_swarm"
+      ],
+      "aspects": {
+        "bestia": 2,
+        "volatus": 1,
+        "fames": 1
+      },
+      "reason": "Кровососущие насекомые."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "kobold",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:kobold"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "lucrum": 1
+      },
+      "reason": "Мелкий гуманоид-собиратель."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "redcap/redcap_sapper",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:redcap",
+        "twilightforest:redcap_sapper"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "perfodio": 1,
+        "telum": 1
+      },
+      "reason": "Одно семейство гоблинов-рудокопов."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "blockchain_goblin/lower_goblin_knight/upper_goblin_knight",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:blockchain_goblin",
+        "twilightforest:lower_goblin_knight",
+        "twilightforest:upper_goblin_knight"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "metallum": 2,
+        "telum": 2
+      },
+      "reason": "Одно семейство вооружённых гоблинов."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "minotaur",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:minotaur"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "humanus": 1,
+        "telum": 2
+      },
+      "reason": "Вооружённый человек-зверь."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "minoshroom",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:minoshroom"
+      ],
+      "aspects": {
+        "bestia": 4,
+        "herba": 2,
+        "telum": 2
+      },
+      "reason": "Грибной минотавр."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "troll/giant_miner/armored_giant",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:troll",
+        "twilightforest:giant_miner",
+        "twilightforest:armored_giant"
+      ],
+      "aspects": {
+        "humanus": 3,
+        "terra": 2,
+        "telum": 2
+      },
+      "reason": "Крупные гуманоиды; одна группа без отдельных наборов за броню."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "skeleton_druid",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:skeleton_druid"
+      ],
+      "aspects": {
+        "exanimis": 3,
+        "herba": 1,
+        "praecantatio": 1
+      },
+      "reason": "Скелет с друидической магией."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "wraith/knight_phantom",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:wraith",
+        "twilightforest:knight_phantom"
+      ],
+      "aspects": {
+        "exanimis": 3,
+        "spiritus": 2,
+        "telum": 1
+      },
+      "reason": "Призрачная нежить."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "lich",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:lich"
+      ],
+      "aspects": {
+        "exanimis": 4,
+        "praecantatio": 4,
+        "spiritus": 2
+      },
+      "reason": "Маг-некромант."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "lich_minion/loyal_zombie/rising_zombie",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:lich_minion",
+        "twilightforest:loyal_zombie",
+        "twilightforest:rising_zombie"
+      ],
+      "aspects": {
+        "exanimis": 3,
+        "humanus": 1
+      },
+      "reason": "Один состав зомби независимо от способа появления."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "death_tome",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:death_tome"
+      ],
+      "aspects": {
+        "cognitio": 3,
+        "volatus": 1,
+        "praecantatio": 2
+      },
+      "reason": "Летающая заколдованная книга."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "maze_slime",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:maze_slime"
+      ],
+      "aspects": {
+        "limus": 3,
+        "aqua": 1
+      },
+      "reason": "Лабиринтный слизень."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "towerwood_borer",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:towerwood_borer"
+      ],
+      "aspects": {
+        "bestia": 1,
+        "arbor": 1
+      },
+      "reason": "Древоточец."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "carminite_golem",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:carminite_golem"
+      ],
+      "aspects": {
+        "machina": 3,
+        "metallum": 2,
+        "praecantatio": 1
+      },
+      "reason": "Башенный конструкт."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "carminite_ghastguard/carminite_ghastling",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:carminite_ghastguard",
+        "twilightforest:carminite_ghastling"
+      ],
+      "aspects": {
+        "exanimis": 2,
+        "volatus": 2,
+        "ignis": 1
+      },
+      "reason": "Башенные гасты; не объявляются адскими только из-за формы."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "snow_guardian/stable_ice_core/unstable_ice_core/ice_crystal",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:snow_guardian",
+        "twilightforest:stable_ice_core",
+        "twilightforest:unstable_ice_core",
+        "twilightforest:ice_crystal"
+      ],
+      "aspects": {
+        "gelum": 3,
+        "praecantatio": 2
+      },
+      "reason": "Одна группа ледяных магических стражей."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "snow_queen",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:snow_queen"
+      ],
+      "aspects": {
+        "gelum": 4,
+        "praecantatio": 3,
+        "superbia": 1
+      },
+      "reason": "Ледяная королева."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "naga",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:naga"
+      ],
+      "aspects": {
+        "bestia": 4,
+        "tutamen": 2,
+        "motus": 2
+      },
+      "reason": "Подвижный чешуйчатый босс."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "hydra",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:hydra"
+      ],
+      "aspects": {
+        "bestia": 4,
+        "ignis": 4,
+        "victus": 2
+      },
+      "reason": "Многоголовый огненный зверь."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "ur_ghast",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:ur_ghast"
+      ],
+      "aspects": {
+        "exanimis": 4,
+        "volatus": 3,
+        "ignis": 3,
+        "ira": 1
+      },
+      "reason": "Гневный летающий босс башни."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "quest_ram",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:quest_ram"
+      ],
+      "aspects": {
+        "bestia": 3,
+        "pannus": 3,
+        "praecantatio": 2
+      },
+      "reason": "Магический баран, принимающий шерсть."
+    },
+    {
+      "mod": "twilightforest",
+      "family": "adherent",
+      "kind": "entity",
+      "targets": [
+        "twilightforest:adherent"
+      ],
+      "aspects": {
+        "humanus": 2,
+        "praecantatio": 3
+      },
+      "reason": "Магический гуманоид замка."
+    }
+  ],
+  "excluded_entities": {
+    "witchery:insanity": "Служебное воплощение безумия: не отдельный источник сканирования.",
+    "twilightforest:plateau_boss": "Недоделанный/служебный босс не получает придуманный состав.",
+    "twilightforest:harbinger_cube": "Техническое/незавершённое существо, состав не выдуман.",
+    "twilightforest:roving_cube": "Технический механизм, а не обычный живой моб."
+  }
+}

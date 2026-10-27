@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forbiddenmagic:nether_star_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:nether_star",
+    "count": 9
+  },
+  "neoforge:conditions": []
+}

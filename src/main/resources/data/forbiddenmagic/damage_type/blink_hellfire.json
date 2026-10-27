@@ -1,0 +1,6 @@
+{
+  "message_id": "fireball",
+  "scaling": "never",
+  "exhaustion": 0.1,
+  "effects": "burning"
+}

@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "axis=y": [
+      {
+        "model": "forbiddenmagic:block/tainted_log",
+        "weight": 6
+      },
+      {
+        "model": "forbiddenmagic:block/tainted_log_gross1",
+        "weight": 1
+      },
+      {
+        "model": "forbiddenmagic:block/tainted_log_gross2",
+        "weight": 1
+      }
+    ],
+    "axis=x": [
+      {
+        "model": "forbiddenmagic:block/tainted_log",
+        "weight": 6,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "forbiddenmagic:block/tainted_log_gross1",
+        "weight": 1,
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "forbiddenmagic:block/tainted_log_gross2",
+        "weight": 1,
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "forbiddenmagic:block/tainted_log",
+        "weight": 6,
+        "x": 90
+      },
+      {
+        "model": "forbiddenmagic:block/tainted_log_gross1",
+        "weight": 1,
+        "x": 90
+      },
+      {
+        "model": "forbiddenmagic:block/tainted_log_gross2",
+        "weight": 1,
+        "x": 90
+      }
+    ]
+  }
+}

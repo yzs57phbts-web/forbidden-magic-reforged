@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forbiddenmagic:tainted_log"
+    }
+  ],
+  "result": {
+    "id": "forbiddenmagic:tainted_planks",
+    "count": 4
+  },
+  "neoforge:conditions": []
+}

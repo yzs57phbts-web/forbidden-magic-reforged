@@ -1,0 +1,656 @@
+{
+  "souls": [
+    {
+      "entity": "minecraft:zombie",
+      "aspect": "corpus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:husk",
+      "aspect": "corpus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:drowned",
+      "aspect": "corpus",
+      "habitat": "amphibious"
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "aspect": "mortuus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:wither_skeleton",
+      "aspect": "mortuus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:stray",
+      "aspect": "mortuus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:bogged",
+      "aspect": "mortuus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:creeper",
+      "aspect": "ignis",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:horse",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:donkey",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:mule",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:pig",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:cow",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:cat",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:ocelot",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:wolf",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:rabbit",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:polar_bear",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:panda",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:fox",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:goat",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:camel",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:llama",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:armadillo",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:sniffer",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:skeleton_horse",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:turtle",
+      "aspect": "bestia",
+      "habitat": "amphibious"
+    },
+    {
+      "entity": "minecraft:frog",
+      "aspect": "bestia",
+      "habitat": "amphibious"
+    },
+    {
+      "entity": "minecraft:sheep",
+      "aspect": "pannus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:mooshroom",
+      "aspect": "herba",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:chicken",
+      "aspect": "volatus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:bat",
+      "aspect": "volatus",
+      "habitat": "air"
+    },
+    {
+      "entity": "minecraft:parrot",
+      "aspect": "volatus",
+      "habitat": "air"
+    },
+    {
+      "entity": "minecraft:bee",
+      "aspect": "volatus",
+      "habitat": "air"
+    },
+    {
+      "entity": "minecraft:squid",
+      "aspect": "sensus",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:glow_squid",
+      "aspect": "sensus",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:cod",
+      "aspect": "bestia",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:salmon",
+      "aspect": "bestia",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:tropical_fish",
+      "aspect": "bestia",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:pufferfish",
+      "aspect": "bestia",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:dolphin",
+      "aspect": "bestia",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:axolotl",
+      "aspect": "bestia",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:guardian",
+      "aspect": "sensus",
+      "habitat": "water"
+    },
+    {
+      "entity": "minecraft:spider",
+      "aspect": "pannus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:slime",
+      "aspect": "limus",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:ghast",
+      "aspect": "infernus",
+      "habitat": "air"
+    },
+    {
+      "entity": "minecraft:zombified_piglin",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:piglin",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:enderman",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:endermite",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:cave_spider",
+      "aspect": "venenum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:silverfish",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:blaze",
+      "aspect": "ignis",
+      "habitat": "air"
+    },
+    {
+      "entity": "minecraft:magma_cube",
+      "aspect": "ignis",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:witch",
+      "aspect": "praecantatio",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:villager",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:hoglin",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:zoglin",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:pillager",
+      "aspect": "telum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:vindicator",
+      "aspect": "telum",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:breeze",
+      "aspect": "aer",
+      "habitat": "land"
+    },
+    {
+      "entity": "minecraft:phantom",
+      "aspect": "mortuus",
+      "habitat": "air"
+    },
+    {
+      "entity": "minecraft:strider",
+      "aspect": "bestia",
+      "habitat": "strider"
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "aspect": "ignis",
+      "habitat": "air"
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "aspect": "auram",
+      "habitat": "air"
+    },
+    {
+      "entity": "thaumcraft:thaumic_slime",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:brainy_zombie",
+      "aspect": "cognitio",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:giant_brainy_zombie",
+      "aspect": "cognitio",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:taint_spider",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:tainted_sheep",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:tainted_cow",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:tainted_pig",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:tainted_chicken",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:tainted_creeper",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:tainted_villager",
+      "aspect": "vitium",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:taint_swarm",
+      "aspect": "vitium",
+      "habitat": "air"
+    },
+    {
+      "entity": "thaumcraft:pech",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:eldritch_guardian",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:cultist_knight",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:cultist_cleric",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:eldritch_crab",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "thaumcraft:inhabited_zombie",
+      "aspect": "alienis",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:deer",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:boar",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:bighorn_sheep",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:dwarf_rabbit",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:squirrel",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:penguin",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:tiny_bird",
+      "aspect": "volatus",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:raven",
+      "aspect": "volatus",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:kobold",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:redcap",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:redcap_sapper",
+      "aspect": "lucrum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:minotaur",
+      "aspect": "telum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:blockchain_goblin",
+      "aspect": "telum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:snow_guardian",
+      "aspect": "telum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:maze_slime",
+      "aspect": "limus",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:slime_beetle",
+      "aspect": "limus",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:swarm_spider",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:hedge_spider",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:king_spider",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:helmet_crab",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:pinch_beetle",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:towerwood_borer",
+      "aspect": "arbor",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:fire_beetle",
+      "aspect": "ignis",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:mosquito_swarm",
+      "aspect": "venenum",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:hostile_wolf",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:mist_wolf",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:winter_wolf",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:yeti",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:troll",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:stable_ice_core",
+      "aspect": "gelum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:unstable_ice_core",
+      "aspect": "gelum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:ice_crystal",
+      "aspect": "gelum",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:wraith",
+      "aspect": "mortuus",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:death_tome",
+      "aspect": "cognitio",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:skeleton_druid",
+      "aspect": "herba",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:carminite_broodling",
+      "aspect": "bestia",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:carminite_golem",
+      "aspect": "machina",
+      "habitat": "land"
+    },
+    {
+      "entity": "twilightforest:carminite_ghastguard",
+      "aspect": "infernus",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:carminite_ghastling",
+      "aspect": "infernus",
+      "habitat": "air"
+    },
+    {
+      "entity": "twilightforest:adherent",
+      "aspect": "praecantatio",
+      "habitat": "land"
+    }
+  ],
+  "excluded": {
+    "minecraft": [
+      "ender_dragon",
+      "wither",
+      "elder_guardian",
+      "warden",
+      "ravager",
+      "evoker",
+      "piglin_brute",
+      "illusioner",
+      "giant",
+      "zombie_horse",
+      "trader_llama",
+      "wandering_trader",
+      "allay",
+      "vex",
+      "iron_golem",
+      "snow_golem"
+    ],
+    "twilightforest": [
+      "naga",
+      "lich",
+      "minoshroom",
+      "hydra",
+      "knight_phantom",
+      "ur_ghast",
+      "alpha_yeti",
+      "snow_queen",
+      "plateau_boss",
+      "quest_ram",
+      "loyal_zombie",
+      "lich_minion",
+      "rising_zombie",
+      "upper_goblin_knight",
+      "lower_goblin_knight",
+      "giant_miner",
+      "armored_giant",
+      "harbinger_cube",
+      "roving_cube"
+    ]
+  },
+  "policy": "Explicit ordinary species only. Boss tags are also rejected at capture and spawn time. Excludes summoned/quest/debug entities and selected elite or coupled creatures."
+}

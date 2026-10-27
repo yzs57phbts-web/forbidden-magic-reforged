@@ -1,0 +1,95 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+version = '1.4.0'
+group = 'local.forbiddenmagic'
+base { archivesName = 'forbidden-magic-reforged-1.21.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+sourceSets { gametest {
+    compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+} }
+dependencies {
+    if(providers.gradleProperty('tcJar').isPresent())implementation files(providers.gradleProperty('tcJar').get())
+    else implementation fileTree('libs') { include 'thaumcraft-*.jar' }
+    compileOnly fileTree('libs') { include 'Botania*','bloodmagic-*','curios-*'; if(providers.gradleProperty('botaniaJar').isPresent())exclude 'Botania*' }
+    if(providers.gradleProperty('botaniaJar').isPresent()){
+        compileOnly files(providers.gradleProperty('botaniaJar').get())
+        if(!providers.gradleProperty('withoutBotania').isPresent()&&!providers.gradleProperty('minimal').isPresent())runtimeOnly files(providers.gradleProperty('botaniaJar').get())
+    }
+    runtimeOnly fileTree('libs') {
+        include '*.jar'; exclude 'thaumcraft-*.jar'
+        if(providers.gradleProperty('botaniaJar').isPresent())exclude 'Botania*'
+        if (providers.gradleProperty('withoutBlood').isPresent()) exclude 'bloodmagic-*','modopedia-*'
+        if (providers.gradleProperty('withoutBotania').isPresent()) exclude 'Botania*'
+        if (providers.gradleProperty('pairOnly').isPresent()) exclude 'witchery-*','twilightforest-*','modonomicon-*','kotlinforforge-*','lithostitched-*'
+        if (providers.gradleProperty('minimal').isPresent()) {
+            exclude 'Botania*','bloodmagic-*','witchery-*','twilightforest-*','bbtt-*','Patchouli-*','modopedia-*','kotlinforforge-*','modonomicon-*','lithostitched-*'
+        }
+    }
+}
+neoForge {
+    version = '21.1.264'
+    mods {
+        forbiddenmagic { sourceSet(sourceSets.main) }
+        forbiddenmagic_tests { sourceSet(sourceSets.gametest) }
+    }
+    runs {
+        aspectTests {
+            type='gameTestServer'; sourceSet=sourceSets.gametest
+            gameDirectory=file(providers.gradleProperty('minimal').isPresent()?'run/minimal':providers.gradleProperty('withoutBlood').isPresent()?'run/botania-only':providers.gradleProperty('withoutBotania').isPresent()?'run/blood-only':'run/tests')
+            if(providers.gradleProperty('modernTests').isPresent())gameDirectory=file('run/modern-'+(providers.gradleProperty('minimal').isPresent()?'minimal':providers.gradleProperty('withoutBlood').isPresent()?'botania-only':providers.gradleProperty('withoutBotania').isPresent()?'blood-only':providers.gradleProperty('pairOnly').isPresent()?'pair':'full'))
+            if(providers.gradleProperty('audit121').isPresent())gameDirectory=file('run/audit121-'+(providers.gradleProperty('minimal').isPresent()?'minimal':providers.gradleProperty('withoutBlood').isPresent()?'botania-only':providers.gradleProperty('withoutBotania').isPresent()?'blood-only':providers.gradleProperty('pairOnly').isPresent()?'pair':'full'))
+            if(providers.gradleProperty('legacy130').isPresent())gameDirectory=file('run/legacy130-'+(providers.gradleProperty('minimal').isPresent()?'minimal':providers.gradleProperty('withoutBlood').isPresent()?'botania-only':providers.gradleProperty('withoutBotania').isPresent()?'blood-only':providers.gradleProperty('pairOnly').isPresent()?'pair':'full'))
+            if(providers.gradleProperty('coreCompat130').isPresent())gameDirectory=file('run/install-1.3.0-bbtt31')
+            if(providers.gradleProperty('visual140').isPresent())gameDirectory=file('run/visual140-'+(providers.gradleProperty('minimal').isPresent()?'minimal':'pair'))
+            if(providers.gradleProperty('currentProfile140').isPresent())gameDirectory=file('run/visual140-current-profile')
+            systemProperty 'neoforge.enabledGameTestNamespaces','forbiddenmagic_tests';jvmArgument '-Xmx4G'
+            if(providers.gradleProperty('legacy130').isPresent())systemProperty 'neoforge.enabledGameTestNamespaces','forbiddenmagic_tests,forbiddenmagic_130tests'
+            if(providers.gradleProperty('visual140').isPresent())systemProperty 'neoforge.enabledGameTestNamespaces','forbiddenmagic_tests,forbiddenmagic_130tests,forbiddenmagic_140tests'
+            if(providers.gradleProperty('config130').isPresent()){
+                gameDirectory=file('run/legacy130-config-'+providers.gradleProperty('config130').get())
+                systemProperty 'neoforge.enabledGameTestNamespaces','forbiddenmagic_configtests'
+                systemProperty 'forbiddenmagic.configScenario',providers.gradleProperty('config130').get()
+            }
+            if(providers.gradleProperty('measurements').isPresent())systemProperty 'forbiddenmagic.measurements','true'
+            if(providers.gradleProperty('auditProbe').isPresent())systemProperty 'forbiddenmagic.auditProbe','true'
+        }
+        aspectClient {
+            client(); sourceSet=sourceSets.gametest
+            gameDirectory=file(providers.gradleProperty('portWorld').isPresent()?'run/world-client':'run/client')
+            if(providers.gradleProperty('modernWorld').isPresent())gameDirectory=file('run/modern-client')
+            if(providers.gradleProperty('audit121World').isPresent()){
+                gameDirectory=file('run/audit121-client')
+                systemProperty 'forbiddenmagic.audit121Smoke','true'
+                systemProperty 'forbiddenmagic.worldSmoke','false'
+                systemProperty 'forbiddenmagic.researchSmoke','false'
+                systemProperty 'forbiddenmagic.localizationSmoke','false'
+            }
+            if(providers.gradleProperty('legacy130World').isPresent()){
+                gameDirectory=file('run/legacy130-client')
+                systemProperty 'forbiddenmagic.audit121Smoke','true'
+                systemProperty 'forbiddenmagic.legacy130Smoke','true'
+                systemProperty 'forbiddenmagic.clientSmoke','false'
+                systemProperty 'forbiddenmagic.worldSmoke','false'
+                systemProperty 'forbiddenmagic.researchSmoke','false'
+                systemProperty 'forbiddenmagic.localizationSmoke','false'
+            }
+            if(providers.gradleProperty('visual140World').isPresent()){
+                gameDirectory=file('run/visual140-client')
+                systemProperty 'forbiddenmagic.visual140Smoke','true'
+            }
+            if(providers.gradleProperty('modernWorld').isPresent())systemProperty 'forbiddenmagic.modernSmoke','true'
+            systemProperty 'forbiddenmagic.clientSmoke',providers.gradleProperty('portWorld').isPresent()?'false':'true'
+            if(providers.gradleProperty('portWorld').isPresent()){
+                systemProperty 'forbiddenmagic.worldSmoke',(providers.gradleProperty('researchWorld').isPresent()||providers.gradleProperty('localizationWorld').isPresent()||providers.gradleProperty('audit121World').isPresent()||providers.gradleProperty('legacy130World').isPresent()||providers.gradleProperty('visual140World').isPresent())?'false':'true'
+                systemProperty 'forbiddenmagic.researchSmoke',providers.gradleProperty('researchWorld').isPresent()?'true':'false'
+                systemProperty 'forbiddenmagic.localizationSmoke',providers.gradleProperty('localizationWorld').isPresent()?'true':'false'
+                programArgument '--quickPlaySingleplayer'; programArgument 'fm-port-validation'
+                programArgument '--width';programArgument '1280';programArgument '--height';programArgument '800'
+            }
+            jvmArgument '-Xmx4G'
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+tasks.withType(org.gradle.api.tasks.bundling.AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }

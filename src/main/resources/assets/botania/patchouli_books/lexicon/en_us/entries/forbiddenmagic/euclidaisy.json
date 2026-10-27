@@ -1,0 +1,19 @@
+{
+  "name": "Euclidaisy",
+  "category": "botania:functional_flowers",
+  "icon": "forbiddenmagic:euclidaisy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Каждые 400 тиков расходует 9000 маны и создаёт эфирную эссенцию с 2 единицами аспекта. С вероятностью 40% выбирается Auram; иначе — случайный доступный аспект. Красный камень останавливает работу."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Research and recipes: Thaumonomicon → Apocrypha. Combine with a mundane floating flower for a floating variant."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "forbiddenmagic:euclidaisy": 0,
+    "forbiddenmagic:floating_euclidaisy": 0
+  }
+}

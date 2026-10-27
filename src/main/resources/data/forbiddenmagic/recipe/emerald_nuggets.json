@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "result": {
+    "id": "forbiddenmagic:emerald_nugget",
+    "count": 9
+  },
+  "neoforge:conditions": []
+}

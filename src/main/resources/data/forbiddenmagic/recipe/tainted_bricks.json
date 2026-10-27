@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "00",
+    "00"
+  ],
+  "key": {
+    "0": {
+      "item": "forbiddenmagic:tainted_stone"
+    }
+  },
+  "result": {
+    "id": "forbiddenmagic:tainted_bricks",
+    "count": 4
+  },
+  "neoforge:conditions": []
+}

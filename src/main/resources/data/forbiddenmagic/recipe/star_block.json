@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "forbiddenmagic:nether_star_block",
+    "count": 1
+  },
+  "neoforge:conditions": []
+}

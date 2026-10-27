@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:array",
+  "baseinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "addedinput": {
+    "item": "forbiddenmagic:crystal_scribing_tools"
+  },
+  "output": {
+    "item": "forbiddenmagic:bound_scribing_tools"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/bindingarray.png",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbiddenmagic:feature_enabled",
+      "feature": "bloodmagic"
+    }
+  ]
+}

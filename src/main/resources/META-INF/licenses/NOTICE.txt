@@ -1,0 +1,20 @@
+Forbidden Magic: Reforged — 0.575 remake (core + Blood Magic + Botania) for Minecraft 1.21.1.
+
+Original Forbidden Magic by SpitefulFox / Spiteful_Fox:
+https://github.com/SpitefulFox/ForbiddenMagic
+https://www.curseforge.com/minecraft/mc-mods/forbidden-magic
+Original code/artwork are offered under WTFPL (see ForbiddenMagic-WTFPL.txt).
+The imported PNGs and animation metadata are byte-for-byte copies from version 0.575.
+Exact source-to-output SHA256 mapping is supplied in port-assets.json.
+
+The original SubTileBloodthorn credits Vazkii's Botania code, and SubTileTainthistle
+credits Pokefenn's Botania code. Their source headers state Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0:
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+The corresponding adapted flower logic in Flowers.java retains that attribution
+and is offered under those same terms. No claim is made that these portions are MIT.
+
+The independent aspect map, integration infrastructure and new verification tools
+are offered under the MIT license included at the project root.
+Thaumcraft, Botania Revived and Blood Magic remain separate dependencies; this JAR
+does not bundle their classes or copy their implementations.

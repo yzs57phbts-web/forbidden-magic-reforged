@@ -1,0 +1,19 @@
+{
+  "name": "Эвклидова ромашка",
+  "category": "botania:functional_flowers",
+  "icon": "forbiddenmagic:euclidaisy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Каждые 400 тиков расходует 9000 маны и создаёт эфирную эссенцию с 2 единицами аспекта. С вероятностью 40% выбирается Auram; иначе — случайный доступный аспект. Красный камень останавливает работу."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Рецепт и исследования: Таумономикон → Апокрифы. Парящий вариант создаётся из цветка и обычного парящего цветка Botania."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "forbiddenmagic:euclidaisy": 0,
+    "forbiddenmagic:floating_euclidaisy": 0
+  }
+}

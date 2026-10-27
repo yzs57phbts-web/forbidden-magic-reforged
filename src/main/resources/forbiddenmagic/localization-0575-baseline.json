@@ -1,0 +1,611 @@
+{
+  "research": {
+    "forbidden.research_name.CRYSTALWELL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CRYSTALWELL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CRYSTALWELL.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CRYSTALWELL.1b": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.PRIMEWELL": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.PRIMEWELL": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.PRIMEWELL.1": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.TRANSEMERALD": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.TRANSEMERALD": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TRANSEMERALD.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.BLACKFLOWER": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.BLACKFLOWER": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.BLACKFLOWER.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.RIDINGCROP": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.RIDINGCROP": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.RIDINGCROP.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CONSUMING": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CONSUMING": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CONSUMING.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.EDUCATIONAL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.EDUCATIONAL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.EDUCATIONAL.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.SCHOOLS": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.SCHOOLS": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.SCHOOLS.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.NETHERSHARDS": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.NETHERSHARDS": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.NETHERSHARDS.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.NETHERSHARDS.2": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.NETHERSHARDS.3": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.NETHERSHARDS.2b": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.HELLFIRE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.HELLFIRE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.HELLFIRE.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_profane": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_profane": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_profane.1": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.SUBCOLLAR": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.SUBCOLLAR": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.SUBCOLLAR.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.SKULLAXE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.SKULLAXE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.SKULLAXE.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.RINGFOOD": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.RINGFOOD": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.RINGFOOD.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ARCANECAKE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ARCANECAKE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ARCANECAKE.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.FOCUSBLINK": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.FOCUSBLINK": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.FOCUSBLINK.1": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.MORPHTOOLS": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.MORPHTOOLS": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.MORPHTOOLS.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_infernal": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_infernal": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_infernal.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_infernal.2": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.WRATH": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.WRATH": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.WRATH.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.GREEDY": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.GREEDY": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.GREEDY.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CORRUPTING": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CORRUPTING": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CORRUPTING.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CLUSTER": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CLUSTER": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CLUSTER.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.IMPACT": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.IMPACT": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.IMPACT.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.VOIDTOUCHED": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.VOIDTOUCHED": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.VOIDTOUCHED.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.FORK": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.FORK": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.FORK.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.FORK.wc": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.WRATHCAGE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.WRATHCAGE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.WRATHCAGE.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.WRATHCAGE.2": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.WRATHCAGE.3": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.TAINTSHOVEL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.TAINTSHOVEL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TAINTSHOVEL.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TAINTSHOVEL.2": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.TAINTPICK": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.TAINTPICK": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TAINTPICK.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_tainted": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_tainted": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_tainted.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.TAINTTREE": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.TAINTTREE": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TAINTTREE.1": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.TAINTSTONE": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.TAINTSTONE": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TAINTSTONE.1": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.BOTANY": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.BOTANY": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.BOTANY.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_livingwood": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_livingwood": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_livingwood.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CAP_manasteel": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CAP_manasteel": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CAP_manasteel.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_dreamwood_staff": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_dreamwood_staff": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_dreamwood_staff.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CAP_elementium": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CAP_elementium": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CAP_elementium.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CAP_terrasteel": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CAP_terrasteel": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CAP_terrasteel.1": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.EUCLIDAISY": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.EUCLIDAISY": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.EUCLIDAISY.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.WHISPERWEED": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.WHISPERWEED": {
+      "russian": "translated_from_original_english",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.WHISPERWEED.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.TAINTHISTLE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.TAINTHISTLE": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.TAINTHISTLE.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.BLOODMAGIC": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.BLOODMAGIC": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.BLOODMAGIC.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_blood": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_blood": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_blood.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_blood.2": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ROD_blood_staff": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ROD_blood_staff": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ROD_blood_staff.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.CAP_alchemical": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.CAP_alchemical": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.CAP_alchemical.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.BLOODWELL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.BLOODWELL": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.BLOODWELL.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.BLOODRAPIER": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.BLOODRAPIER": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.BLOODRAPIER.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_name.ELDRITCHORB": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_text.ELDRITCHORB": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    },
+    "forbidden.research_page.ELDRITCHORB.1": {
+      "russian": "original_russian_verbatim",
+      "english": "original_english_verbatim"
+    }
+  },
+  "original_russian": 131,
+  "translated_russian": 20,
+  "source": "Final0.575 JAR ru_RU.lang/en_US.lang; markup image namespace adapted only."
+}

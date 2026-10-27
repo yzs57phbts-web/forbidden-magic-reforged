@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.forbiddenmagic.impact"
+  },
+  "supported_items": "#forbiddenmagic:enchantable/impact",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {}
+}

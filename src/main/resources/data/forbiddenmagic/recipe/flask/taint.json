@@ -1,0 +1,26 @@
+{
+  "type": "bloodmagic:flask_potioneffect",
+  "baseDuration": 450,
+  "effect": "thaumcraft:taint_poison",
+  "input": [
+    {
+      "item": "bloodmagic:simplecatalyst"
+    },
+    {
+      "item": "thaumcraft:tainted_goo"
+    }
+  ],
+  "syphon": 500,
+  "ticks": 200,
+  "upgradeLevel": 1,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodmagic"
+    },
+    {
+      "type": "forbiddenmagic:feature_enabled",
+      "feature": "bloodmagic"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "transform": {
+    "scale": [
+      -1,
+      1,
+      1
+    ],
+    "origin": "center"
+  },
+  "textures": {
+    "layer0": "forbiddenmagic:item/rapier_of_the_strix"
+  }
+}

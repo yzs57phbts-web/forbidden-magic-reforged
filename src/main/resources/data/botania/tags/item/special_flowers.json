@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "forbiddenmagic:euclidaisy",
+      "required": false
+    },
+    {
+      "id": "forbiddenmagic:whisperweed",
+      "required": false
+    },
+    {
+      "id": "forbiddenmagic:tainthistle",
+      "required": false
+    },
+    {
+      "id": "forbiddenmagic:bloodthorn",
+      "required": false
+    }
+  ]
+}

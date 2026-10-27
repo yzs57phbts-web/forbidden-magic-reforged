@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "forbiddenmagic:floating_euclidaisy",
+      "required": false
+    },
+    {
+      "id": "forbiddenmagic:floating_whisperweed",
+      "required": false
+    },
+    {
+      "id": "forbiddenmagic:floating_tainthistle",
+      "required": false
+    },
+    {
+      "id": "forbiddenmagic:floating_bloodthorn",
+      "required": false
+    }
+  ]
+}

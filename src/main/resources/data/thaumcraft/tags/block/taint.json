@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "forbiddenmagic:tainted_leaves",
+    "forbiddenmagic:tainted_sapling"
+  ]
+}

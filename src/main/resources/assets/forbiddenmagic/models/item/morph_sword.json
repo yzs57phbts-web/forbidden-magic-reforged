@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "forbiddenmagic:item/morph_sword",
+    "layer1": "forbiddenmagic:item/morph_sword_eyes"
+  }
+}
